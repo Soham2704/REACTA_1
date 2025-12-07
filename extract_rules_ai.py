@@ -3,10 +3,11 @@ import os
 import argparse
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.prompts import PromptTemplate
-from database_setup import SessionLocal, Rule
+from langchain_core.prompts import PromptTemplate
+from chroma_client import ChromaDBClient
 from tqdm import tqdm
 import concurrent.futures
+import uuid
 
 # --- SETUP & PROMPT (UNCHANGED) ---
 load_dotenv()
@@ -56,14 +57,30 @@ You must extract rules into a list of JSON objects, where each object has the fo
 # --- RULE EXTRACTION AGENT (UNCHANGED) ---
 class RuleExtractionAgent:
     def __init__(self):
-        self.llm = ChatGoogleGenerativeAI(model="gemini-pro-latest", temperature=0.0)
-        self.prompt = PromptTemplate.from_template(EXTRACTION_PROMPT)
-        self.chain = self.prompt | self.llm
+        try:
+            self.llm = ChatGoogleGenerativeAI(model="gemini-pro-latest", temperature=0.0)
+            self.prompt = PromptTemplate.from_template(EXTRACTION_PROMPT)
+            self.chain = self.prompt | self.llm
+            self.offline_mode = False
+        except Exception as e:
+            print(f"[{e}] LLM Init failed. Switching to OFFLINE PASSTHROUGH MODE.")
+            self.offline_mode = True
     
     def extract_rules_from_text(self, text_chunk: str, city: str):
-        # ... (The logic here is the same) ...
-        response = self.chain.invoke({"text_chunk": text_chunk})
+        if self.offline_mode:
+            # Return a single dummy rule that wraps the content for Vector Search
+            return [{
+                "id": f"RAW-CHUNK-{uuid.uuid4()}", # Unique ID for every chunk
+                "city": city,
+                "rule_type": "RawText",
+                "conditions": {},
+                "entitlements": {},
+                "notes": "Raw PDF content indexed for search.",
+            }]
+
+
         try:
+            response = self.chain.invoke({"text_chunk": text_chunk})
             json_str = response.content.strip()
             start_index = json_str.find('[')
             end_index = json_str.rfind(']') + 1
@@ -73,15 +90,36 @@ class RuleExtractionAgent:
                 for rule in extracted_data:
                     if 'city' not in rule: rule['city'] = city
                 return extracted_data
-            else: return []
-        except (json.JSONDecodeError, TypeError, AttributeError): return []
+            else: 
+                raise ValueError("JSON parsing failed or empty")
+        except Exception as e:
+            # Fallback to RAW CHUNK if LLM fails at runtime (e.g. invalid key)
+            print(f"Extraction failed for chunk. Fallback to Raw Indexing. Error: {e}")
+            return [{
+                "id": f"FALLBACK-CHUNK-{uuid.uuid4()}", 
+                "city": city,
+                "rule_type": "RawText",
+                "conditions": {},
+                "entitlements": {},
+                "notes": "Raw PDF content (Fallback due to AI error).",
+            }]
 
 def process_page(page_data, city_name, agent):
     text_content = page_data.get('content', '')
     if len(text_content) < 200: return []
-    return agent.extract_rules_from_text(text_content, city_name)
+    
+    found_rules = agent.extract_rules_from_text(text_content, city_name)
+    
+    # Attach source text to each rule so we can use it for vector embedding later
+    results_with_source = []
+    for rule in found_rules:
+        results_with_source.append({
+            "rule": rule,
+            "source_text": text_content # This will be the document content in Chroma
+        })
+    return results_with_source
 
-# --- MAIN EXECUTION SCRIPT (Now with De-duplication) ---
+# --- MAIN EXECUTION SCRIPT (Now with ChromaDB) ---
 def run_extraction_pipeline(input_path: str, city_name: str):
     print(f"--- Starting HIGH-PERFORMANCE AI Curation for {city_name} ---")
     
@@ -89,7 +127,7 @@ def run_extraction_pipeline(input_path: str, city_name: str):
     with open(input_path, 'r', encoding='utf-8') as f: unstructured_data = json.load(f)
 
     agent = RuleExtractionAgent()
-    all_extracted_rules = []
+    all_extracted_items = []
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         results = list(tqdm(
@@ -97,50 +135,43 @@ def run_extraction_pipeline(input_path: str, city_name: str):
             total=len(unstructured_data), desc=f"Processing pages for {city_name}"
         ))
 
-    for page_rules in results:
-        if page_rules: all_extracted_rules.extend(page_rules)
+    for page_results in results:
+        if page_results: all_extracted_items.extend(page_results)
     
-    print(f"\nAI extraction complete. Found {len(all_extracted_rules)} potential rules.")
+    print(f"\nAI extraction complete. Found {len(all_extracted_items)} potential rules.")
 
-    # --- THE CRUCIAL UPGRADE: De-duplicate the results BEFORE hitting the DB ---
+    # --- De-duplicate the results ---
     print("De-duplicating extracted rules...")
-    unique_rules = {}
-    for rule in all_extracted_rules:
+    unique_items = {}
+    for item in all_extracted_items:
+        rule = item["rule"]
         rule_id = rule.get("id")
-        if rule_id and rule_id not in unique_rules:
-            unique_rules[rule_id] = rule
+        if rule_id and rule_id not in unique_items:
+            unique_items[rule_id] = item
     
-    final_rules_to_commit = list(unique_rules.values())
-    print(f"Found {len(final_rules_to_commit)} unique rules to process.")
+    final_items_to_commit = list(unique_items.values())
+    print(f"Found {len(final_items_to_commit)} unique rules to process.")
     
-    if not final_rules_to_commit:
+    if not final_items_to_commit:
         print("No new rules to commit.")
         return
 
-    db = SessionLocal()
+    # --- Initialize ChromaDB Client ---
+    db_client = ChromaDBClient()
     total_rules_committed = 0
-    try:
-        print("Committing new unique rules to the database...")
-        for rule_data in tqdm(final_rules_to_commit, desc="Saving to DB"):
-            rule_id = rule_data.get("id")
-            existing_rule = db.query(Rule).filter(Rule.id == rule_id).first()
-            if existing_rule: continue
-
-            required_keys = ["id", "city", "rule_type", "conditions", "entitlements", "notes"]
-            if not all(key in rule_data for key in required_keys): continue
-            
-            new_rule = Rule(**rule_data)
-            db.add(new_rule)
-            total_rules_committed += 1
+    
+    print("Committing new unique rules to ChromaDB...")
+    for item in tqdm(final_items_to_commit, desc="Saving to DB"):
+        rule_data = item["rule"]
+        source_text = item["source_text"]
         
-        db.commit()
-        print(f"Commit successful. Added {total_rules_committed} new rules.")
-    except Exception as e:
-        print(f"\n!!! An error occurred: {e}")
-        db.rollback()
-    finally:
-        db.close()
-        print("Database session closed.")
+        # Add to ChromaDB
+        # We pass the full source text as the document content
+        success = db_client.add_rule(rule_data, document_content=source_text)
+        if success:
+            total_rules_committed += 1
+    
+    print(f"Commit successful. Added {total_rules_committed} new rules to ChromaDB.")
     print(f"\n--- Curation Complete for {city_name} ---")
 
 if __name__ == "__main__":

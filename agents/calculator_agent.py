@@ -22,16 +22,7 @@ class EntitlementsAgent:
         }
         return breakdown
 
-# --- Using the Agent ---
 
-# 1. Create an instance of the agent, giving it the rule book
-entitlement_agent = EntitlementsAgent(entitlement_rules)
-
-# 2. Use the instance to perform a calculation
-result = entitlement_agent.calculate("road_width_gt_18m_bonus")
-
-# 3. Print the final breakdown
-print(result)
 
 class AllowableEnvelopeAgent:
     def __init__(self):
@@ -53,13 +44,3 @@ class AllowableEnvelopeAgent:
         }
         return breakdown
 
-# --- Using the Agent ---
-
-# 1. Create an instance of the agent
-envelope_agent = AllowableEnvelopeAgent()
-
-# 2. Use the agent to perform the calculation
-result = envelope_agent.calculate(plot_area=1000, setback_area=100)
-
-# 3. Print the final breakdown
-print(result)

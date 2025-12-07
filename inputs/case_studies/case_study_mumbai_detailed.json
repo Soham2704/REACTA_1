@@ -1,0 +1,14 @@
+{
+    "project_id": "project_beta_revamp",
+    "case_id": "mum_res_tower_detailed_01",
+    "city": "Mumbai",
+    "document": "io/DCPR_2034.pdf",
+    "parameters": {
+        "plot_size": 3500,
+        "location": "suburban",
+        "road_width": 27.5,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 70.0
+    }
+}

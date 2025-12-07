@@ -1,5 +1,4 @@
-from database_setup import SessionLocal, Rule
-from sqlalchemy.orm import Session
+from chroma_client import ChromaDBClient
 from typing import List, Dict, Any
 import json
 import os
@@ -8,72 +7,77 @@ import uuid
 
 class MCPClient:
     """
-    A client for interacting with the Managed Compliance Platform (our database).
-    This centralizes all database logic, as required for a professional service.
+    A client for interacting with the Managed Compliance Platform.
+    Now backed by ChromaDB for vector-search enabled rule management.
     """
     def __init__(self):
-        self.db: Session = SessionLocal()
-        print("MCPClient initialized, database session started.")
+        self.db = ChromaDBClient()
+        print("MCPClient initialized, connected to ChromaDB.")
 
     def add_rule(self, rule_data: Dict[str, Any]):
         """Adds a new rule to the MCP, checking for duplicates."""
-        rule_id = rule_data.get("id")
-        if not rule_id: return False
-        
-        existing_rule = self.db.query(Rule).filter(Rule.id == rule_id).first()
-        if existing_rule: return False
+        # De-duplication is now handled by ChromaDB's UPSERT (based on ID)
+        # But we can still return True/False if needed, though upsert always succeeds technically.
+        try:
+            return self.db.add_rule(rule_data)
+        except Exception as e:
+            print(f"Error adding rule: {e}")
+            return False
 
-        new_rule = Rule(**rule_data)
-        self.db.add(new_rule)
-        self.db.commit()
-        return True
-
-    def query_rules(self, city: str, parameters: dict) -> List[Rule]:
+    def query_rules(self, city: str, parameters: dict) -> List[Dict[str, Any]]:
         """
-        Finds all rules that match the given case parameters by aggregating results.
+        Finds all rules that match the given case parameters.
+        Delegates to ChromaDB's structured filtering.
         """
-        all_matching_rules = []
-        
-        if "road_width_m" in parameters:
-            width = parameters["road_width_m"]
-            width_rules = self.db.query(Rule).filter(
-                Rule.city.ilike(city),
-                Rule.conditions['road_width_m']['min'].as_float() <= width,
-                Rule.conditions['road_width_m']['max'].as_float() > width
-            ).all()
-            all_matching_rules.extend(width_rules)
-
-        if "plot_area_sqm" in parameters:
-            area = parameters["plot_area_sqm"]
-            area_rules = self.db.query(Rule).filter(
-                Rule.city.ilike(city),
-                Rule.conditions['plot_area_sqm']['min'].as_float() <= area,
-                Rule.conditions['plot_area_sqm']['max'].as_float() >= area
-            ).all()
-            all_matching_rules.extend(area_rules)
-            
-        return list({rule.id: rule for rule in all_matching_rules}.values())
+        return self.db.query_rules(city, parameters)
 
     def add_feedback(self, feedback_data: Dict[str, Any]):
         """
         Persists user feedback. In a full MCP, this would write to a 'feedback' table.
         For now, it writes to the required feedback.jsonl file.
         """
+        # Ensure directory exists
+        os.makedirs("io", exist_ok=True)
         log_file = "io/feedback.jsonl"
+        
+        input_payload = feedback_data.get("input_case", {})
+        output_payload = feedback_data.get("output_report", {})
+        
+        # Extract meaningful summary data to keep the log clean
+        # If output is a dict (standard), get entitlements/analysis. If string (legacy/error), use as is.
+        report_text = ""
+        if isinstance(output_payload, dict):
+            # Try to grab the text report
+            entitlements = output_payload.get("entitlements", {})
+            if isinstance(entitlements, dict):
+                 report_text = entitlements.get("analysis_summary", "")
+            else:
+                 report_text = str(output_payload)
+        else:
+            report_text = str(output_payload)
+
         feedback_record = {
             "feedback_id": str(uuid.uuid4()),
             "project_id": feedback_data.get("project_id"),
             "case_id": feedback_data.get("case_id"),
             "user_feedback": feedback_data.get("user_feedback"),
             "timestamp": datetime.utcnow().isoformat() + "Z",
-            "input": feedback_data.get("input_case"),
-            "output": feedback_data.get("output_report")
+            # FULL CONTEXT FOR RL
+            "input": input_payload,
+            "output": output_payload,
+            "query_parameters": input_payload.get("parameters", {}),
+            "report_excerpt": report_text[:500] + "..." if len(report_text) > 500 else report_text 
         }
-        with open(log_file, "a") as f:
-            f.write(json.dumps(feedback_record) + "\n")
-        return feedback_record
+        try:
+            with open(log_file, "a") as f:
+                f.write(json.dumps(feedback_record) + "\n")
+            return feedback_record
+        except Exception as e:
+            print(f"Error saving feedback: {e}")
+            return None
 
     def close(self):
         """Closes the database session."""
-        self.db.close()
-        print("MCPClient session closed.")
+        # ChromaDB client doesn't strictly need closing in this context, 
+        # but we can print a message.
+        print("MCPClient session ended.")

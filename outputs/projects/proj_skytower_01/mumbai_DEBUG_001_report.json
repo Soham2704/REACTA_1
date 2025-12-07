@@ -1,0 +1,21 @@
+{
+    "project_id": "proj_skytower_01",
+    "case_id": "mumbai_DEBUG_001",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "urban",
+        "road_width": 20
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis (Offline Mode)**\n**Date:** December 06, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n* **Plot Size:** 2000 sq. m.\n* **Location Type:** urban\n* **Abutting Road Width:** 20 m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nBased on the provided parameters, the system has identified applicable rules from the master database. \n**Key Finding:** The plot is located in a urban zone with a road width of 20m. This typically allows for standard FSI with potential bonuses.\n\n#### **2. Entitlements & Calculations**\n*   **Base FSI:** 1.0 (Standard)\n*   **Plot Size:** 2000 sq. m.\n*   **Total Permissible Built-Up Area (BUA):** 2000.0 sq. m. (Estimated)\n*   **Setbacks:** Standard setbacks apply (typically 6m front, 4.5m sides) based on the building height.\n\n#### **3. Key Missing Information**\n*   Specific ward-level regulations (only City-level rules applied).\n*   Detailed topography map for slope analysis.\n*   Existing structures on site (if any).\n\n#### **4. Recommended Next Steps**\n1.  Verify the exact road width with a physical survey.\n2.  Purchase applicable TDR (Transferable Development Rights) to increase FSI potential.\n3.  Consult with a local liaison architect for final approval submission.\n\n---\n**Disclaimer:** This report is generated in **Offline Mode** as the AI service is unavailable. It uses heuristic logic and hardcoded templates.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 1400.0
+    },
+    "rl_decision": {
+        "optimal_action": 3,
+        "confidence_score": 0.91
+    },
+    "geometry_file": "/outputs/projects/proj_skytower_01/mumbai_DEBUG_001_geometry.stl",
+    "logs": "/logs/mumbai_DEBUG_001"
+}

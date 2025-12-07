@@ -19,4 +19,6 @@ pillow
 numpy-stl
 pytest 
 streamlit 
-fastapi "uvicorn[standard]"
+fastapi
+uvicorn[standard]
+chromadb

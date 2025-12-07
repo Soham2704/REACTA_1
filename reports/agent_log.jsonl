@@ -572,3 +572,432 @@
 {"timestamp": "2025-10-08T03:46:26.646141Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
 {"timestamp": "2025-10-08T03:52:57.820683Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
 {"timestamp": "2025-10-08T03:53:00.156052Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:37:13.070022Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:37:24.996276Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:37:57.969728Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:38:57.112782Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:40:18.526854Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:46:11.942177Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:46:17.116544Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:38.339718Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:38.420229Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:41.674658Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:41.731276Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:45.779060Z", "level": "INFO", "message": "Processing case mumbai_DEBUG_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:45.780053Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:48.749074Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:49:49.082998Z", "level": "ERROR", "message": "Error in /run_case: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:50:10.689990Z", "level": "INFO", "message": "Processing case mumbai_DEBUG_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:50:10.690985Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:50:12.974743Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:50:13.089432Z", "level": "ERROR", "message": "Error in /run_case: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:47.501787Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:51.665097Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:54.731612Z", "level": "INFO", "message": "Processing case mumbai_DEBUG_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:54.732624Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:57.130380Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:51:57.595424Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:40.135331Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:43.779850Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:55.413624Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:55.413624Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:57.849422Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:52:58.012971Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:53:31.633805Z", "level": "INFO", "message": "Feedback saved via MCP for case mumbai_001", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:18.905384Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:21.921642Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:21.921642Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:25.149777Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:25.370444Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:55:27.118790Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:09.845216Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:09.878508Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:10.598349Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:18.651952Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:18.652553Z", "level": "INFO", "message": "Processing case mumbai_DEBUG_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:18.652553Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:18.826689Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:20.514658Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:20.555788Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_DEBUG_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:57:21.077060Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:05.698525Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:05.989493Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:06.196485Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:15.637511Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:15.862699Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:16.069264Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:27.873969Z", "level": "INFO", "message": "Processing case ahmedabad_001 for project proj_lotus_towers_04.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:27.873969Z", "level": "INFO", "message": "Querying MCP for rules for case ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:31.457778Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:31.730356Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:32.386777Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:32.970104Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:32.970104Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:35.804148Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:36.013456Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T11:58:39.641277Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:00:58.615442Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:00:58.661127Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:00:58.746509Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:00:58.937880Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:10.169051Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:10.523046Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:10.579514Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:10.948315Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:28.594963Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:29.056507Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:30.552791Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:30.635068Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:38.266369Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:38.299723Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:39.072875Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:01:39.145114Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:06.758698Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:08.084038Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:08.084038Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:10.022753Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:10.269293Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:13.185087Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:20.006266Z", "level": "INFO", "message": "Processing case ahmedabad_001 for project proj_lotus_towers_04.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:20.006266Z", "level": "INFO", "message": "Querying MCP for rules for case ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:22.874682Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:23.053679Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:53.996418Z", "level": "INFO", "message": "Processing case mumbai_002_small_plot for project proj_compact_living_03.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:53.996418Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:56.150498Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:02:56.337399Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:03:14.014352Z", "level": "INFO", "message": "Feedback saved via MCP for case mumbai_002_small_plot", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:36:57.612007Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:36:57.645627Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:36:57.955644Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:08.353568Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:08.356824Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:08.363884Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:25.171208Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:25.177726Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:25.208859Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:35.117650Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:35.140955Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:35.146502Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:50.020946Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:50.077220Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:50.137101Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:56.424309Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:56.430089Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:37:56.599986Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:32.052632Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:32.237540Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:32.333471Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:36.795593Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:36.831821Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:38:37.076641Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:13.222622Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:14.320205Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:14.362913Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:28.294407Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:29.103235Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:40:29.819691Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:37.952047Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:38.065418Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:38.572402Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:48.677768Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:48.710720Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:42:48.985732Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:09.163034Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:09.208974Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:09.214991Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:13.014748Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:13.045063Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T12:43:13.102715Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:41.102106Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:45.852989Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:52.845973Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:52.845973Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:53.722882Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:22:54.303113Z", "level": "WARNING", "message": "LLM generation failed, switching to Mock Consultant: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:25:36.914425Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:25:47.231033Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:26:42.503810Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:26:50.908282Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:20.434000Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:25.050825Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:37.106518Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:37.106518Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:38.797060Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:27:39.384278Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:28:55.771896Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:05.013110Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:05.017072Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:31.862953Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:36.597679Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:42.144952Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:42.144952Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:42.869425Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:29:43.395427Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:31:01.882007Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:31:10.173793Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:32:16.606829Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:32:22.062804Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:32:58.087697Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:32:58.089710Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:32:59.766982Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:33:00.216547Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:37.689776Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:42.409931Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:50.435341Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:50.435341Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:51.690728Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:34:52.230181Z", "level": "ERROR", "message": "LLM generation failed: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:39:47.456549Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:39:53.488899Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:42:23.152009Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:42:23.152009Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:42:23.915323Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:43:27.744910Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:46:28.954908Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:46:33.666883Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:46:38.194752Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:46:38.195276Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:46:39.564943Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:47:42.812756Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:48:40.095127Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:48:44.632337Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:48:50.042594Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:48:50.044833Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:48:50.774754Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:49:10.179732Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:51:42.023631Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:51:51.219564Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:52:07.615693Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:52:17.302064Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:52:32.652646Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:52:41.669802Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:52:58.695932Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:53:08.010019Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:53:51.670881Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:53:56.438106Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:02.944974Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:02.944974Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:05.942748Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:28.730017Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:51.631474Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:53.894859Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:54:56.490100Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:03.974883Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:04.721290Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:04.721290Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:07.821090Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:24.825279Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:51.111199Z", "level": "INFO", "message": "Processing case mumbai_002_small_plot for project proj_compact_living_03.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:51.111199Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:55:53.763099Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:56:15.408284Z", "level": "INFO", "message": "LLM expert report complete for mumbai_002_small_plot.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:57:48.556250Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:57:48.669960Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:57:57.174324Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T13:57:57.181897Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:08.045167Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:12.680710Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:19.206544Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:19.206544Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:22.565685Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:54.878958Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:03:54.878958Z", "level": "ERROR", "message": "Error in /run_case: name 'deterministic_entitlements' is not defined", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:11.530927Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:11.530927Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:11.530927Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:21.008263Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:21.040681Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:05:21.073742Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:06:21.719729Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:06:27.226339Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:06:33.916664Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:06:33.918097Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:06:37.218897Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:07:08.477077Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:02.456237Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:02.459568Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:02.512772Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:02.512772Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:11.537405Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:11.551786Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:11.562922Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-06T14:09:11.652007Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:50:36.554333Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:50:45.657743Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:50:53.967716Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:50:53.967716Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:50:56.337769Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T05:51:59.560538Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\nPlease retry in 202.86028ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerDay-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:00:55.875495Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:01:01.244920Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:01:09.612338Z", "level": "INFO", "message": "Processing case mumbai_002_small_plot for project proj_compact_living_03.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:01:09.612338Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:01:10.886504Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_002_small_plot...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:02:15.052817Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\nPlease retry in 44.805730018s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerDay-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-pro\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 44\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:03:00.200194Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T06:03:08.897577Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:40:30.133160Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:40:33.980114Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:42:33.047056Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:42:33.047056Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:42:37.892853Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:42:45.089566Z", "level": "ERROR", "message": "LLM generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:43:58.019829Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:43:58.244299Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:03.451673Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:05.183329Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:05.424688Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:06.952253Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:16.924664Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:16.924664Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:20.724858Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:44:27.517854Z", "level": "ERROR", "message": "LLM generation failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:01.855438Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:01.974814Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:02.005528Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:05.203437Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:08.194045Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:08.223469Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:08.229145Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:08.229145Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:11.430578Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:45:28.524638Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:47:53.267281Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:47:53.451793Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:47:53.457813Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:01.475652Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:01.567602Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:02.020457Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:17.586378Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:20.531120Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:29.706504Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:29.706504Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:35.569384Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:48:49.777624Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:49:41.136229Z", "level": "INFO", "message": "Feedback saved via MCP for case mumbai_001", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:06.310164Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:06.481001Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:06.615479Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:06.757099Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:18.644008Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:18.883187Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:19.005917Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:54:19.181694Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:19.957268Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:20.130368Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:20.484274Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:20.727000Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:41.764650Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:41.931099Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:42.132110Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T14:55:42.142922Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:50.753241Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:50.879353Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:50.937248Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:50.980303Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:59.544895Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:59.562281Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:59.614612Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:03:59.850007Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:18.812964Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:18.859553Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:19.054675Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:19.189849Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:27.249489Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:27.362688Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:27.766545Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:04:27.773278Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:03.460979Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:03.618016Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:03.745780Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:03.867034Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:12.296983Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:12.477386Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:05:12.666362Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:26:53.389937Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:26:59.990631Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:27:19.494370Z", "level": "INFO", "message": "Processing case mumbai_001 for project proj_skytower_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:27:19.494370Z", "level": "INFO", "message": "Querying MCP for rules for case mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:27:24.958680Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mumbai_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:27:38.809165Z", "level": "INFO", "message": "LLM expert report complete for mumbai_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:29:27.566920Z", "level": "INFO", "message": "Feedback saved via MCP for case mumbai_001", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:31:44.204696Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:31:48.735406Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:31:57.759254Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:32:02.088281Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:32:15.861027Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:32:20.277895Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:32:28.802344Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:32:32.872329Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:34:14.175272Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:34:22.344896Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:36:38.054755Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:36:38.669854Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:36:47.185764Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:36:47.337223Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:06.506078Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:15.277367Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:26.992402Z", "level": "INFO", "message": "Processing case mum_res_tower_detailed_01 for project project_beta_revamp.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:26.992402Z", "level": "INFO", "message": "Querying MCP for rules for case mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:35.595118Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:38:52.250510Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:40:02.387187Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:41:55.828739Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:41:55.883354Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:41:56.024552Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:42:07.984765Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:42:08.134664Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:42:08.573482Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:47:43.226815Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:47:51.235790Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:06.395908Z", "level": "INFO", "message": "Processing case ahmedabad_001 for project proj_lotus_towers_04.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:06.395908Z", "level": "INFO", "message": "Querying MCP for rules for case ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:12.931770Z", "level": "INFO", "message": "Processing case mum_res_tower_detailed_01 for project project_beta_revamp.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:12.931770Z", "level": "INFO", "message": "Querying MCP for rules for case mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:13.980335Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for ahmedabad_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:18.660643Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:29.363288Z", "level": "INFO", "message": "LLM expert report complete for ahmedabad_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:48:35.239785Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:50:29.322084Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:34.097484Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:34.835786Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:34.942122Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:35.468238Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:47.828852Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:47.875753Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:47.938399Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:53:48.069987Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:54:25.166813Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:54:30.606512Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:54:47.712280Z", "level": "INFO", "message": "Processing case mum_res_tower_detailed_01 for project project_beta_revamp.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:54:47.712280Z", "level": "INFO", "message": "Querying MCP for rules for case mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:54:55.006881Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:55:10.795563Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T15:56:22.546603Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:00:56.815184Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:01:05.198626Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:01:06.739197Z", "level": "INFO", "message": "Processing case mum_res_tower_detailed_01 for project project_beta_revamp.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:01:06.739197Z", "level": "INFO", "message": "Querying MCP for rules for case mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:01:12.613020Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:01:27.806841Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:02:21.748255Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:21.597786Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:21.739630Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:22.231584Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:22.366776Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:22.943441Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:23.252633Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:35.888788Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:36.001528Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:36.234629Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:36.351582Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:36.351582Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:04:36.359663Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:05:27.299334Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:05:36.839870Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:06:23.401643Z", "level": "INFO", "message": "Processing case mum_res_tower_detailed_01 for project project_beta_revamp.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:06:23.401643Z", "level": "INFO", "message": "Querying MCP for rules for case mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:06:24.830789Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:06:46.253551Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:08:52.134348Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}

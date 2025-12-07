@@ -1,116 +1,90 @@
-Multi-Agent AI System for Regulatory Compliance
-This repository contains the source code for a professional-grade, multi-agent AI pipeline designed to automate the analysis of complex, unstructured regulatory documents. The system is architected as a deployable API service that ingests raw PDF rulebooks, processes them through a robust data pipeline, and uses a combination of deterministic and AI agents—including a human-in-the-loop Reinforcement Learning agent—to generate comprehensive analysis reports and 3D geometry outputs.
+# 🏙️ Multi-Agent AI Compliance System
 
-This project was developed as a demonstration of advanced AI engineering principles, including system architecture, real-world data processing, building intelligent learning systems, and professional-grade testing, documentation, and automation.
+An advanced AI-powered system for automated zoning code analysis and building compliance checking (DCPR 2034, UDCPR), featuring Multi-Agent Orchestration, RAG (Retrieval Augmented Generation), and Reinforcement Learning (RL) for ongoing optimization.
 
-Core Features
-End-to-End API Service: The entire system is packaged as a professional FastAPI service with documented endpoints for running cases, submitting feedback, and retrieving logs.
+## 🚀 Key Features
 
-Automated AI Data Curation: A high-performance, parallelized AI agent (extract_rules_ai.py) reads unstructured text from OCR'd PDFs and uses an LLM to automatically populate a structured SQLite database.
+*   **Multi-Agent Architecture**:
+    *   **Orchestrator**: Manages the workflow.
+    *   **RAG Agent**: Retrieves specific regulations from PDFs (`chroma_client.py`).
+    *   **Rule Engine**: Deterministic calculation of FSI, open spaces, and envelopes.
+    *   **RL Agent**: Learns optimal policy decisions based on user feedback (`stable-baselines3`).
+*   **Advanced OCR & Ingestion**: Uses **Tesseract OCR** to handle scanned regulatory PDFs and vectorizes them into ChromaDB.
+*   **Detailed Feasibility Analysis**:
+    *   **Inputs**: Plot Size, Road Width, Zoning (Residential/Commercial/etc.), Proposed Use, Height.
+    *   **Advanced Constraints**: ASR Rates (Premium Calculation), Plot Deductions (Road Widening), and more.
+*   **Interactive Feedback Loop**: Users can upvote/downvote reports. Data is logged in full detail (`inputs` + `outputs`) to retrain the RL agent.
+*   **3D Visualization**: Generates a simple `.stl` geometry file of the allowable building envelope.
 
-Database-Driven "Fact-Checker" Architecture: The core analysis is driven by a precise Database Query Agent that retrieves deterministic facts, which are then explained in a rich, human-readable context by a Gemini Pro LLM agent. This hybrid approach ensures both accuracy and quality.
+## 🛠️ Installation
 
-Human-in-the-Loop Reinforcement Learning (HIRL): A custom Gymnasium environment trains a Stable-Baselines3 PPO agent that learns an optimal policy from both a synthetically generated "oracle" and real human feedback collected via an interactive web UI.
+### Prerequisites
+*   **Python 3.10+**
+*   **Tesseract OCR**: Must be installed on your system.
+    *   *Windows*: [Download Installer](https://github.com/UB-Mannheim/tesseract/wiki) (Add to PATH or `C:\Program Files\Tesseract-OCR`)
+*   **Google Gemini API Key**: Required for the LLM analysis.
 
-Full-Stack Interactive UI: A Streamlit front-end application communicates with the FastAPI back-end to provide an interactive user experience, display results, and collect user feedback (👍/👎).
+### Setup Steps
+1.  **Clone the Repository**:
+    ```bash
+    git clone <repo-url>
+    cd multi-agent-compliance-system
+    ```
 
-Professional Automation: N8N workflows automate the entire data ingestion pipeline (PDF Fetch -> OCR Parse -> AI Extract -> DB Load) and the RL retraining cycle.
+2.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Professional-Grade Engineering: The project includes a full pytest test suite, comprehensive structured JSONL logging, a Dockerfile for easy deployment, and a complete set of professional documentation.
+3.  **Configure Environment**:
+    *   Open `.env` and paste your API Key:
+        ```ini
+        GEMINI_API_KEY=your_actual_key_here
+        ```
 
-System Architecture
-The system is designed as a modular, service-oriented architecture:
+4.  **Ingest Regulations (First Run Only)**:
+    *   Place your regulatory PDF (e.g., `DCPR_2034.pdf`) in the `io/` folder.
+    *   Run the ingestion script:
+        ```bash
+        py ingest_pdf.py
+        ```
+    *   *Note: This processes the PDF, extracts text via OCR, and saves embeddings to `rules_chroma_db`.*
 
-+----------------+      +---------------------+      +-----------------+
-|   Frontend     |----->|   FastAPI Service   |----->|   SQLite DB     |
-| (Streamlit UI) |      |      (main.py)      |      |   (rules.db)    |
-+----------------+      +---------+-----------+      +-----------------+
-                                  |
-            +---------------------+---------------------+
-            |                                           |
-+-----------v-----------+                     +---------v---------+
-|    AI Data Pipeline   |                     |  Compliance Pipeline|
-| (N8N -> OCR -> AI)    |                     |  (process_case_logic)|
-+-----------------------+                     +-----------+-------+
-                                                          |
-            +---------------------+---------------------+
-            |                     |                     |
-+-----------v-----------+ +-------v-------+     +-------v-------+
-| Database Query Agent  | | Calculator    |     |    RL Agent     |
-+-----------------------+ | Agents        |     +---------------+
-                          +---------------+
+## 🏃‍♂️ Usage
 
-How to Run the Application
-This is a full-stack application with a back-end API server and a front-end UI.
+**One-Click Start (Windows):**
+Double-click **`start_system.bat`**
+*   This script automatically starts the FastAPI Backend (`main.py`) and the Streamlit Frontend (`app.py`).
 
-Prerequisites:
+**Manual Start:**
+1.  **Backend**: `uvicorn main:app --reload`
+2.  **Frontend**: `streamlit run app.py`
 
-Python 3.11+
+### using the Dashboard
+1.  **Select a Case Study**: Choose a pre-defined case (e.g., `case_study_mumbai_detailed.json`) or create a new one in `inputs/case_studies/`.
+2.  **Adjust Parameters**: Use the sidebar to tweak Plot Size, Road Width, Zoning, ASR Rate, etc.
+3.  **Run Analysis**: Click "Run Full Pipeline".
+4.  **View Report**: Read the detailed AI analysis, citations, and calculations.
+5.  **Give Feedback**: Click Thumbs Up/Down. This data is saved to `io/feedback.jsonl` to make the AI smarter.
 
-All libraries from requirements.txt
+## 📂 Project Structure
 
-Tesseract OCR engine installed and configured.
+*   `main.py`: FastAPI Backend (API Endpoints).
+*   `main_pipeline.py`: Core logic (Orchestrator, LLM calls, Context assembly).
+*   `app.py`: Streamlit Frontend (UI).
+*   `mcp_client.py` & `chroma_client.py`: Data handling, RAG retrieval, and logging.
+*   `ingest_pdf.py`: OCR and Vector ingestion engine.
+*   `extract_rules_ai.py`: Logic for parsing specific rules from text.
+*   `inputs/`: Case study JSON files.
+*   `io/`: Storage for PDFs, feedback logs, and generated reports.
+*   `outputs/`: Generated 3D models (`.stl`) and JSON reports.
 
-Node.js and N8N installed globally for automation workflows.
+## 🧠 Reinforcement Learning (RL)
+The system uses PPO (Proximal Policy Optimization) to learn from user feedback.
+*   **State**: `[Plot Size, Location, Road Width]`
+*   **Action**: Policy decisions (Strict vs Liberal interpretation).
+*   **Reward**: Derived from User Feedback (Upvote = +1, Downvote = -1).
+*   *Training script located in `rl_env/`.*
 
-1. Set up the Environment:
-
-# Create and activate a virtual environment
-python -m venv venv
-.\venv\Scripts\activate
-
-# Install all dependencies
-pip install -r requirements.txt
-
-2. Prepare the Data Assets (The Full Data Pipeline):
-This is a one-time setup process to build the database. Note: The parsing and AI extraction steps are computationally intensive and may take a significant amount of time.
-
-# Step A: Download the source PDFs
-python download_docs.py
-
-# Step B: Parse all documents with OCR (This will take time)
-python agents/parse_agent.py --input io/DCPR_2034.pdf --output rules_kb/mumbai_rules.json
-python agents/parse_agent.py --input io/Pune_DCR.pdf --output rules_kb/pune_rules.json
-python agents/parse_agent.py --input io/Ahmedabad_DCR.pdf --output rules_kb/ahmedabad_rules.json
-
-# Step C: Create the empty database
-python database_setup.py
-
-# Step D: Use AI to automatically populate the database (This will take a long time)
-python extract_rules_ai.py --input rules_kb/mumbai_rules.json --city Mumbai
-python extract_rules_ai.py --input rules_kb/pune_rules.json --city Pune
-python extract_rules_ai.py --input rules_kb/ahmedabad_rules.json --city Ahmedabad
-
-# Step E: Train the final, human-in-the-loop RL agent
-python rl_env/train_complex_agent.py
-
-3. Run the Interactive Application:
-You must run the back-end API and the front-end UI in two separate terminals.
-
-Terminal 1: Start the Back-End API Server
-
-uvicorn main:app --reload
-
-Terminal 2: Start the Front-End UI
-
-streamlit run app.py
-
-Your web browser will open with the application running.
-
-How to Run the Tests
-The project includes a pytest suite to validate the system.
-
-pytest
-
-Technology Stack
-AI & Machine Learning: PyTorch, LangChain, Stable-Baselines3, Gymnasium, Hugging Face Transformers, Scikit-learn
-
-Data Pipeline & Automation: N8N, Pytesseract (OCR), Pandas, NumPy
-
-Backend & API: FastAPI, Uvicorn, SQLAlchemy
-
-Frontend: Streamlit
-
-Database: SQLite
-
-Developer Tools: Git, GitHub, Docker, Pytest, Unittest
+## 📄 License
+MIT License

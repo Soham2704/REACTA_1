@@ -10,10 +10,41 @@ from datetime import datetime
 import uuid
 
 # --- Import our logger, the NEW MCP Client, and the pipeline logic ---
+# --- Import our logger, the NEW MCP Client, and the pipeline logic ---
 from logging_config import logger
 from mcp_client import MCPClient
 from main_pipeline import process_case_logic
-from database_setup import Rule
+# Removed Rule import as we are no longer using SQLAlchemy
+
+# --- 3. Data Models for API (The "Contract") ---
+from typing import List, Dict, Any, Optional
+
+class CaseParameters(BaseModel):
+    plot_size: int
+    location: str
+    road_width: float
+    # New detailed parameters (Optional for backward compatibility)
+    zoning: Optional[str] = None
+    proposed_use: Optional[str] = None
+    building_height: Optional[float] = None
+    # Advanced Financial & Physical Constraints
+    asr_rate: Optional[float] = None
+    plot_deductions: Optional[float] = None
+
+class CaseInput(BaseModel):
+    project_id: str
+    case_id: str
+    city: str
+    document: str
+    parameters: CaseParameters
+
+class FeedbackInput(BaseModel):
+    project_id: str
+    case_id: str
+    user_feedback: str = Field(..., pattern="^(up|down)$")
+    # Added to support full logging
+    input_case: Optional[Dict[str, Any]] = {}
+    output_report: Optional[Dict[str, Any]] = {}
 
 # --- 1. Create the FastAPI App ---
 app = FastAPI(
@@ -29,25 +60,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# --- 3. Data Models for API (The "Contract") ---
-class CaseParameters(BaseModel):
-    plot_size: int
-    location: str
-    road_width: int
-
-class CaseInput(BaseModel):
-    project_id: str
-    case_id: str
-    city: str
-    document: str
-    parameters: CaseParameters
-
-class FeedbackInput(BaseModel):
-    project_id: str
-    case_id: str
-    user_feedback: str = Field(..., pattern="^(up|down)$")
-
 # --- 4. Global State to hold our "brains" and the MCP Client ---
 class SystemState:
     def __init__(self):
@@ -71,8 +83,29 @@ def startup_event():
     os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
 
     state.mcp_client = MCPClient()
-    state.llm = ChatGoogleGenerativeAI(model="gemini-pro-latest")
-    state.rl_agent = PPO.load("rl_env/ppo_hirl_agent.zip")
+    
+    try:
+        if not os.getenv("GEMINI_API_KEY"):
+            logger.warning("GEMINI_API_KEY not found in .env. AI features will be disabled.")
+            state.llm = None
+        else:
+            # Use gemini-1.5-flash for better free-tier performance and higher rate limits
+            state.llm = ChatGoogleGenerativeAI(
+                model="gemini-flash-latest",
+                google_api_key=os.getenv("GEMINI_API_KEY"),
+                max_retries=3,
+                request_timeout=60
+            )
+    except Exception as e:
+        logger.error(f"Failed to initialize LLM: {e}")
+        state.llm = None
+
+    try:
+        from stable_baselines3 import PPO
+        state.rl_agent = PPO.load("rl_env/ppo_hirl_agent.zip")
+    except Exception as e:
+        logger.error(f"Failed to load RL agent: {e}")
+        state.rl_agent = None
     
     state.is_initialized = True
     logger.info("All components and MCP Client initialized successfully. Server is ready.")
@@ -124,23 +157,17 @@ def logs_endpoint(case_id: str) -> List[Dict[str, Any]]:
         raise HTTPException(status_code=500, detail=f"Error reading log file: {e}")
     return case_logs
 
-# --- 7. Endpoints for AI Design Platform Bridge ---
-
 @app.get("/get_rules", summary="Fetches parsed rule JSON for a given city")
 def get_rules(city: str) -> List[Dict[str, Any]]:
     if not state.is_initialized:
         raise HTTPException(status_code=503, detail="System is initializing.")
     try:
-        # Use the MCP Client to query rules
-        rules_from_db = state.mcp_client.db.query(Rule).filter(Rule.city.ilike(city)).all()
-        # Correctly create a clean list of dictionaries
-        return [
-            {
-                "id": rule.id, "city": rule.city, "rule_type": rule.rule_type,
-                "conditions": rule.conditions, "entitlements": rule.entitlements,
-                "notes": rule.notes
-            } for rule in rules_from_db
-        ]
+        # Use the MCP Client to query rules for the city
+        # We pass an empty parameters dict to get all rules for the city
+        rules_from_db = state.mcp_client.query_rules(city, {})
+        
+        # They are already dictionaries, so we can return them directly
+        return rules_from_db
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Could not fetch rules: {e}")
 
