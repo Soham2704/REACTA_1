@@ -1,0 +1,31 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765267864888",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 500,
+        "location": "Suburbs",
+        "road_width": 13.0,
+        "zoning": "Commercial (C-Zone)",
+        "proposed_use": "Commercial Office",
+        "building_height": 15.0,
+        "asr_rate": 80.0,
+        "plot_deductions": 4.0
+    },
+    "entitlements": {
+        "analysis_summary": "",
+        "rules_from_db": [],
+        "carpet_area_sqm": 350.0
+    },
+    "rl_decision": {
+        "optimal_action": 2,
+        "confidence_score": 0.34
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765267864888_geometry.stl",
+    "calculated_geometry": {
+        "width": 22.360679774997898,
+        "depth": 22.360679774997898,
+        "height": 10.0
+    },
+    "logs": "/logs/case_1765267864888"
+}

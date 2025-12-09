@@ -1001,3 +1001,491 @@
 {"timestamp": "2025-12-07T16:06:24.830789Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for mum_res_tower_detailed_01...", "source": "MultiAgentSystem"}
 {"timestamp": "2025-12-07T16:06:46.253551Z", "level": "INFO", "message": "LLM expert report complete for mum_res_tower_detailed_01.", "source": "MultiAgentSystem"}
 {"timestamp": "2025-12-07T16:08:52.134348Z", "level": "INFO", "message": "Feedback saved via MCP for case mum_res_tower_detailed_01", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:23:27.245809Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:23:34.453434Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:42:45.806796Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T16:42:54.823920Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:12:07.964457Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:13.732558Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:33.093625Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:33.093625Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:51.244732Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:53.454230Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:20:53.454230Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:21:22.572444Z", "level": "INFO", "message": "Processing case case_1765128082422 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:21:22.572444Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765128082422...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:21:24.647042Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765128082422...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:21:45.073144Z", "level": "INFO", "message": "LLM expert report complete for case_1765128082422.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:21:45.073144Z", "level": "ERROR", "message": "Error in /run_case: 'NoneType' object has no attribute 'predict'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:08.571432Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:09.642478Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:14.054723Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:14.054723Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:14.476443Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:14.476443Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:39.172988Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:39.573507Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:47.368505Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:47.368505Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:47.505614Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:25:47.505614Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:00.252481Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:02.968326Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:02.968875Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:26.496814Z", "level": "INFO", "message": "Processing case case_1765129226442 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:26.496814Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765129226442...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:27.539677Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765129226442...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:43.934408Z", "level": "INFO", "message": "LLM expert report complete for case_1765129226442.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:40:43.934961Z", "level": "ERROR", "message": "Error in /run_case: 'NoneType' object has no attribute 'predict'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:43:44.923203Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:43:47.316284Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:43:47.316284Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:44:06.882030Z", "level": "INFO", "message": "Processing case case_1765129446859 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:44:06.882655Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765129446859...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:44:13.364071Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765129446859...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:44:30.539327Z", "level": "INFO", "message": "LLM expert report complete for case_1765129446859.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:44:30.543785Z", "level": "ERROR", "message": "Error in /run_case: 'NoneType' object has no attribute 'predict'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:05.964153Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:05.964153Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:06.658941Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:06.778618Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.296440Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.297440Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.297440Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.297440Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.298439Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.298439Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.298439Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.298439Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:12.371461Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:14.848178Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:14.848178Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:37.982160Z", "level": "INFO", "message": "Received /run_case request for case case_1765129657926", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:37.995779Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:37.996779Z", "level": "INFO", "message": "Processing case case_1765129657926 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:37.996779Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765129657926...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:47:44.114455Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765129657926...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:48:01.958179Z", "level": "INFO", "message": "LLM expert report complete for case_1765129657926.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:48:01.959688Z", "level": "ERROR", "message": "Error in /run_case: 'NoneType' object has no attribute 'predict'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:11.273151Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:11.688353Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:11.969443Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:13.315065Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:13.580330Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:17.937996Z", "level": "INFO", "message": "Processing case DEBUG_CASE_001 for project DEBUG_PROJECT.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:17.937996Z", "level": "INFO", "message": "Querying MCP for rules for case DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:19.646396Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.715231Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.715231Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.715231Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.715231Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.715231Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.723843Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.728777Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.728777Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.729774Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:50:24.729774Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:51:02.805803Z", "level": "INFO", "message": "LLM expert report complete for DEBUG_CASE_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:19.145410Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:21.587697Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:21.587697Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:38.285639Z", "level": "INFO", "message": "Received /run_case request for case case_1765129958226", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:38.292002Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:38.292002Z", "level": "INFO", "message": "Processing case case_1765129958226 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:38.292002Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765129958226...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:41.685309Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765129958226...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:58.557406Z", "level": "INFO", "message": "LLM expert report complete for case_1765129958226.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:58.564209Z", "level": "INFO", "message": "Skipping RL step (Agent not loaded).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:52:58.572037Z", "level": "INFO", "message": "Case case_1765129958226 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:53:27.577152Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1765129958226", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:55:45.885940Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:55:55.559634Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:55:55.559634Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:56:28.764837Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:56:38.110383Z", "level": "ERROR", "message": "Failed to load RL agent: No module named 'numpy._core.numeric'", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:56:38.110383Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:29.861361Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:33.615176Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:50.776049Z", "level": "INFO", "message": "Received /run_case request for case case_1765130270726", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:50.776353Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:50.776353Z", "level": "INFO", "message": "Processing case case_1765130270726 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:50.776353Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765130270726...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:57:57.018496Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765130270726...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:58:12.993969Z", "level": "INFO", "message": "LLM expert report complete for case_1765130270726.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:58:12.995391Z", "level": "INFO", "message": "Skipping RL step (Agent not loaded).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:58:13.015750Z", "level": "INFO", "message": "Case case_1765130270726 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:58:29.407927Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1765130270726", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:24.720462Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:24.884108Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:32.245818Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:32.321761Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:33.473016Z", "level": "INFO", "message": "Processing case DEBUG_CASE_001 for project DEBUG_PROJECT.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:33.473016Z", "level": "INFO", "message": "Querying MCP for rules for case DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:34.510148Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T17:59:53.261563Z", "level": "INFO", "message": "LLM expert report complete for DEBUG_CASE_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:00:25.926643Z", "level": "INFO", "message": "Processing case DEBUG_CASE_001 for project DEBUG_PROJECT.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:00:25.926643Z", "level": "INFO", "message": "Querying MCP for rules for case DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:00:26.914809Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for DEBUG_CASE_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:00:46.079246Z", "level": "INFO", "message": "LLM expert report complete for DEBUG_CASE_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:05:19.502341Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:05:23.000454Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:14.059863Z", "level": "INFO", "message": "Received /run_case request for case case_1765130773991", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:14.059863Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 800, 'location': 'Suburbs', 'road_width': 10.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Residential Building', 'building_height': 14.0, 'asr_rate': 90.0, 'plot_deductions': 2.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:14.059863Z", "level": "INFO", "message": "Processing case case_1765130773991 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:14.059863Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765130773991...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:19.862618Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765130773991...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:23.252347Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 36.360164304s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 36\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:06:23.253175Z", "level": "INFO", "message": "Case case_1765130773991 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:30.034657Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:30.075385Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:30.211896Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:36.900996Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:36.952650Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:36.955196Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:39.191027Z", "level": "INFO", "message": "Processing case case_suburbs_commercial for project DEBUG_USER_CASE.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:39.191027Z", "level": "INFO", "message": "Querying MCP for rules for case case_suburbs_commercial...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:40.064746Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_suburbs_commercial...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:08:43.139077Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.475061282s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:09:56.300526Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:09:56.373672Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:09:56.668795Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:08.291053Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:08.478285Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:08.605261Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:47.151423Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:47.199228Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:10:47.489613Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:03.936924Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:03.951538Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:04.314497Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:09.012479Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:12.129568Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:46.261686Z", "level": "INFO", "message": "Received /run_case request for case case_1765131106209", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:46.261686Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 900, 'location': 'Suburbs', 'road_width': 15.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Residential Building', 'building_height': 18.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:46.261686Z", "level": "INFO", "message": "Processing case case_1765131106209 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:46.261686Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765131106209...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:48.024581Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765131106209...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:51.126741Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 8.473838169s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 8\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:11:51.149064Z", "level": "INFO", "message": "Case case_1765131106209 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:06.291994Z", "level": "INFO", "message": "Received /run_case request for case case_1765131186293", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:06.291994Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 900, 'location': 'Suburbs', 'road_width': 15.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Residential Building', 'building_height': 18.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:06.291994Z", "level": "INFO", "message": "Processing case case_1765131186293 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:06.291994Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765131186293...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:08.541668Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765131186293...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:11.591878Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.006700873s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:13:11.591878Z", "level": "INFO", "message": "Case case_1765131186293 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:14:45.289198Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1765131186293", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:42.807543Z", "level": "INFO", "message": "Received /run_case request for case case_1765131402793", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:42.807543Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 900, 'location': 'Suburbs', 'road_width': 15.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Residential Building', 'building_height': 18.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:42.807543Z", "level": "INFO", "message": "Processing case case_1765131402793 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:42.807543Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765131402793...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:47.541904Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765131402793...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:50.588284Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.007522817s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:16:50.626188Z", "level": "INFO", "message": "Case case_1765131402793 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:19:44.802262Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:19:48.229563Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:04.417645Z", "level": "INFO", "message": "Received /run_case request for case case_1765131604392", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:04.419193Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 5.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:04.419193Z", "level": "INFO", "message": "Processing case case_1765131604392 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:04.419193Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765131604392...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:09.575028Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765131604392...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:12.601993Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.997686066s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 46\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-07T18:20:12.617705Z", "level": "INFO", "message": "Case case_1765131604392 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:26:18.372720Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:26:41.649250Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:16.718758Z", "level": "INFO", "message": "Received /run_case request for case case_1765178836634", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:16.722542Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:16.722542Z", "level": "INFO", "message": "Processing case case_1765178836634 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:16.722542Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765178836634...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:22.123587Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765178836634...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:24.666760Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-08T07:27:24.817912Z", "level": "INFO", "message": "Case case_1765178836634 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:13.833460Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:23.524250Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:44.405516Z", "level": "INFO", "message": "Received /run_case request for case case_1765266584348", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:44.405516Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:44.405516Z", "level": "INFO", "message": "Processing case case_1765266584348 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:44.405516Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765266584348...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:47.314181Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765266584348...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:50.689381Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:49:50.801736Z", "level": "INFO", "message": "Case case_1765266584348 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:11.401181Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:19.571407Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:56.838989Z", "level": "INFO", "message": "Received /run_case request for case case_1765266836785", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:56.839528Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 2.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:56.839528Z", "level": "INFO", "message": "Processing case case_1765266836785 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:56.841043Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765266836785...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:53:59.068741Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765266836785...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:54:02.314478Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:54:02.336293Z", "level": "INFO", "message": "Case case_1765266836785 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:57:54.361367Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:03.096255Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:11.040375Z", "level": "INFO", "message": "Received /run_case request for case case_1765267090987", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:11.041409Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:11.042452Z", "level": "INFO", "message": "Processing case case_1765267090987 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:11.042452Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765267090987...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:13.365213Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765267090987...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:16.271415Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T07:58:16.295403Z", "level": "INFO", "message": "Case case_1765267090987 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:27.805483Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:27.819960Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:27.939404Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:43.361549Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:43.361549Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:43.361549Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:03:49.162101Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:01.681327Z", "level": "INFO", "message": "Received /run_case request for case case_1765267441591", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:01.682723Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:01.682723Z", "level": "INFO", "message": "Processing case case_1765267441591 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:01.682723Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765267441591...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:01.788826Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:06.436608Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765267441591...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:06.441309Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:24.631370Z", "level": "INFO", "message": "LLM expert report complete for case_1765267441591.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:04:24.656591Z", "level": "INFO", "message": "Case case_1765267441591 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:04.904725Z", "level": "INFO", "message": "Received /run_case request for case case_1765267864888", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:04.905492Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 500, 'location': 'Suburbs', 'road_width': 13.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Commercial Office', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:04.905492Z", "level": "INFO", "message": "Processing case case_1765267864888 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:04.906185Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765267864888...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:08.622809Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765267864888...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:08.622809Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:37.741620Z", "level": "INFO", "message": "LLM expert report complete for case_1765267864888.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:11:37.781705Z", "level": "INFO", "message": "Case case_1765267864888 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:05.496974Z", "level": "INFO", "message": "Received /run_case request for case case_1765268045479", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:05.496974Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:05.496974Z", "level": "INFO", "message": "Processing case case_1765268045479 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:05.496974Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765268045479...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:09.172867Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765268045479...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:09.180462Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:27.031858Z", "level": "INFO", "message": "LLM expert report complete for case_1765268045479.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:27.064437Z", "level": "INFO", "message": "Case case_1765268045479 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:14:52.027996Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1765268045479", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:18.315403Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:18.318958Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:18.361199Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:18.504509Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:34.312510Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:34.356695Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:34.399150Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:34.544416Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:24:57.840225Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:06.037994Z", "level": "INFO", "message": "Received /run_case request for case case_1765268705961", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:06.038509Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 80.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:06.039039Z", "level": "INFO", "message": "Processing case case_1765268705961 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:06.039039Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765268705961...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:10.916101Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765268705961...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:10.920092Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:11.038924Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:27.001846Z", "level": "INFO", "message": "LLM expert report complete for case_1765268705961.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T08:25:27.033983Z", "level": "INFO", "message": "Case case_1765268705961 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:27:06.307465Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:27:20.130455Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:52.331276Z", "level": "INFO", "message": "Received /run_case request for case case_1765273492218", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:52.333325Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 400, 'location': 'Suburbs', 'road_width': 9.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 60.0, 'plot_deductions': 2.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:52.333325Z", "level": "INFO", "message": "Processing case case_1765273492218 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:52.333325Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765273492218...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:56.277488Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765273492218...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:44:56.284916Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:45:13.644682Z", "level": "INFO", "message": "LLM expert report complete for case_1765273492218.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:45:13.691481Z", "level": "INFO", "message": "Case case_1765273492218 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:20.319907Z", "level": "INFO", "message": "Received /run_case request for case case_1765273820303", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:20.319907Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 3500, 'location': 'Suburbs', 'road_width': 27.5, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 69.0, 'asr_rate': 60.0, 'plot_deductions': 2.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:20.319907Z", "level": "INFO", "message": "Processing case case_1765273820303 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:20.319907Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765273820303...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:23.672085Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765273820303...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:23.677713Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:42.802187Z", "level": "INFO", "message": "LLM expert report complete for case_1765273820303.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T09:50:42.850486Z", "level": "INFO", "message": "Case case_1765273820303 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:28.335227Z", "level": "INFO", "message": "Received /run_case request for case case_1765274428318", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:28.336874Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 800, 'location': 'Suburbs', 'road_width': 10.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 60.0, 'plot_deductions': 2.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:28.336874Z", "level": "INFO", "message": "Processing case case_1765274428318 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:28.336874Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765274428318...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:31.639236Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765274428318...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:31.641483Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:44.790948Z", "level": "INFO", "message": "LLM expert report complete for case_1765274428318.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:00:44.846118Z", "level": "INFO", "message": "Case case_1765274428318 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:30.758109Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:44.738494Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:44.771223Z", "level": "INFO", "message": "Received /run_case request for case debug_case_dynamic_001", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:44.771223Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 5000, 'location': 'Island City', 'road_width': 30.0, 'zoning': 'Residential', 'proposed_use': 'Residential', 'building_height': 100.0, 'asr_rate': 100.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:44.771223Z", "level": "INFO", "message": "Processing case debug_case_dynamic_001 for project debug_test.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:44.773299Z", "level": "INFO", "message": "Querying MCP for rules for case debug_case_dynamic_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:48.118026Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for debug_case_dynamic_001...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:12:48.124449Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:13:06.848050Z", "level": "INFO", "message": "LLM expert report complete for debug_case_dynamic_001.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:13:06.901506Z", "level": "INFO", "message": "Case debug_case_dynamic_001 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:14:54.951281Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:07.642913Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:21.208473Z", "level": "INFO", "message": "Received /run_case request for case case_1765275321142", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:21.209365Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1200, 'location': 'Island City', 'road_width': 16.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 6.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:21.209365Z", "level": "INFO", "message": "Processing case case_1765275321142 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:21.209365Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765275321142...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:24.331401Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765275321142...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:24.340904Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:45.958216Z", "level": "INFO", "message": "LLM expert report complete for case_1765275321142.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:15:45.998359Z", "level": "INFO", "message": "Case case_1765275321142 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:36.800591Z", "level": "INFO", "message": "Received /run_case request for case case_1765275396793", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:36.800591Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2500, 'location': 'Suburbs', 'road_width': 27.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 20.0, 'asr_rate': 90.0, 'plot_deductions': 6.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:36.800591Z", "level": "INFO", "message": "Processing case case_1765275396793 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:36.802748Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765275396793...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:40.598343Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765275396793...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:40.601398Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:58.674413Z", "level": "INFO", "message": "LLM expert report complete for case_1765275396793.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:16:58.700473Z", "level": "INFO", "message": "Case case_1765275396793 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:35.768419Z", "level": "INFO", "message": "Received /run_case request for case case_1765275515754", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:35.768419Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2200, 'location': 'Island City', 'road_width': 18.0, 'zoning': 'Commercial (C-Zone)', 'proposed_use': 'Hospital', 'building_height': 20.0, 'asr_rate': 90.0, 'plot_deductions': 6.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:35.768419Z", "level": "INFO", "message": "Processing case case_1765275515754 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:35.768419Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765275515754...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:39.183704Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765275515754...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:39.188805Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:57.928594Z", "level": "INFO", "message": "LLM expert report complete for case_1765275515754.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:18:57.962777Z", "level": "INFO", "message": "Case case_1765275515754 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:22:53.312172Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:22:53.312172Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:06.118585Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:06.118585Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:30.241825Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:42.467500Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:56.432926Z", "level": "INFO", "message": "Received /run_case request for case case_1765275836341", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:56.439270Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1500, 'location': 'Island City', 'road_width': 15.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 10.0, 'asr_rate': 90.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:56.439270Z", "level": "INFO", "message": "Processing case case_1765275836341 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:23:56.439270Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765275836341...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:24:00.387551Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765275836341...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:24:00.393641Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:24:22.139109Z", "level": "INFO", "message": "LLM expert report complete for case_1765275836341.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:24:22.189106Z", "level": "INFO", "message": "Case case_1765275836341 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:23.828766Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:23.842725Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:23.882504Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:37.919185Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:37.960501Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:27:37.962561Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:29.051870Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:42.893920Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:56.204447Z", "level": "INFO", "message": "Received /run_case request for case case_1765276136110", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:56.204962Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 900, 'location': 'Island City', 'road_width': 14.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 13.0, 'asr_rate': 70.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:56.206349Z", "level": "INFO", "message": "Processing case case_1765276136110 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:28:56.206349Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765276136110...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:29:00.238520Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765276136110...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:29:00.241579Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:29:19.802227Z", "level": "INFO", "message": "LLM expert report complete for case_1765276136110.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:29:19.858899Z", "level": "INFO", "message": "Case case_1765276136110 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:31.422774Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:31.422774Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:31.422774Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:31.456217Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:44.071531Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:44.111558Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:44.135598Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:33:44.171977Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:06.534628Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:19.912085Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:29.685584Z", "level": "INFO", "message": "Received /run_case request for case case_1765276469577", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:29.685584Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1700, 'location': 'Island City', 'road_width': 13.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 8.0, 'asr_rate': 75.0, 'plot_deductions': 6.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:29.685584Z", "level": "INFO", "message": "Processing case case_1765276469577 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:29.685584Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765276469577...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:33.612566Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765276469577...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:33.616622Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:55.642625Z", "level": "INFO", "message": "LLM expert report complete for case_1765276469577.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:55.646441Z", "level": "INFO", "message": "Extracted FSI 1.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:34:55.686601Z", "level": "INFO", "message": "Case case_1765276469577 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:00.100543Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:00.105429Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:00.323880Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:00.420365Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:00.509711Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:14.077123Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:14.104273Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:14.230730Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:14.308963Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:14.308963Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:30.778364Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:37:43.723065Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:12.732359Z", "level": "INFO", "message": "Received /run_case request for case case_1765276692640", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:12.732359Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1800, 'location': 'Island City', 'road_width': 19.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 17.0, 'asr_rate': 69.0, 'plot_deductions': 1.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:12.735584Z", "level": "INFO", "message": "Processing case case_1765276692640 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:12.735584Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765276692640...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:16.598674Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765276692640...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:16.602315Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:32.624486Z", "level": "INFO", "message": "LLM expert report complete for case_1765276692640.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:32.629179Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:38:32.629179Z", "level": "ERROR", "message": "Error in /run_case: name 'rl_optimal_action' is not defined", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.842194Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.854955Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.884069Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.890948Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.955096Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:27.965999Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.792369Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.846163Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.896741Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.896741Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.904505Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:39:42.905187Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:07.349128Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:21.028800Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:25.504539Z", "level": "INFO", "message": "Received /run_case request for case case_1765276825425", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:25.504539Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1900, 'location': 'Island City', 'road_width': 21.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 23.0, 'asr_rate': 69.0, 'plot_deductions': 6.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:25.505791Z", "level": "INFO", "message": "Processing case case_1765276825425 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:25.505791Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765276825425...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:28.249388Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765276825425...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:28.256208Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:46.994170Z", "level": "INFO", "message": "LLM expert report complete for case_1765276825425.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:46.998976Z", "level": "INFO", "message": "Extracted FSI 1.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:46.998976Z", "level": "INFO", "message": "Forcing FSI 3.0 for better visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:40:47.048933Z", "level": "INFO", "message": "Case case_1765276825425 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:32.513290Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:46.409011Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:50.231244Z", "level": "INFO", "message": "Received /run_case request for case case_1765277270165", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:50.232261Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1700, 'location': 'Island City', 'road_width': 18.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 20.0, 'asr_rate': 90.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:50.232775Z", "level": "INFO", "message": "Processing case case_1765277270165 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:50.232775Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765277270165...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:52.569374Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765277270165...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:47:52.573707Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:48:10.495947Z", "level": "INFO", "message": "LLM expert report complete for case_1765277270165.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:48:10.499136Z", "level": "INFO", "message": "Extracted FSI 1.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:48:10.502144Z", "level": "INFO", "message": "Forcing FSI 3.0 for better visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:48:10.529063Z", "level": "INFO", "message": "Case case_1765277270165 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:58:20.549595Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:58:20.566291Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:58:33.482664Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:58:33.493867Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:04.055989Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:13.878306Z", "level": "INFO", "message": "Received /run_case request for case case_1765277953840", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:13.878306Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 90.0, 'plot_deductions': 4.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:13.878306Z", "level": "INFO", "message": "Processing case case_1765277953840 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:13.878306Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765277953840...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:17.317025Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765277953840...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:17.319536Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:18.461373Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:32.546156Z", "level": "INFO", "message": "LLM expert report complete for case_1765277953840.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:32.869732Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T10:59:35.131580Z", "level": "INFO", "message": "Case case_1765277953840 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:01:57.861460Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:01:57.870604Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:01:57.879590Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:02:11.419859Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:02:11.512541Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:02:11.669323Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:25.974507Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:42.944846Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:54.439498Z", "level": "INFO", "message": "Received /run_case request for case case_1765278234364", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:54.439498Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1800, 'location': 'Island City', 'road_width': 18.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 35.0, 'asr_rate': 75.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:54.439498Z", "level": "INFO", "message": "Processing case case_1765278234364 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:54.440492Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765278234364...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:58.374278Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765278234364...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:03:58.377466Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:04:01.461247Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 58.696148545s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:04:01.522988Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:04:01.563405Z", "level": "INFO", "message": "User requested height 35.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:04:01.614604Z", "level": "INFO", "message": "Case case_1765278234364 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:02.520971Z", "level": "INFO", "message": "Received /run_case request for case case_1765278302508", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:02.522981Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 1800, 'location': 'Island City', 'road_width': 18.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 43.0, 'asr_rate': 75.0, 'plot_deductions': 3.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:02.522981Z", "level": "INFO", "message": "Processing case case_1765278302508 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:02.522981Z", "level": "INFO", "message": "Querying MCP for rules for case case_1765278302508...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:09.149773Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1765278302508...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:09.149773Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:12.098498Z", "level": "ERROR", "message": "LLM generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.043373775s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:12.105106Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:12.112257Z", "level": "INFO", "message": "User requested height 43.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-09T11:05:12.118398Z", "level": "INFO", "message": "Case case_1765278302508 processed successfully.", "source": "MultiAgentSystem"}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-bg text-gray-200 font-sans antialiased;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 20%);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  @apply bg-dark-card/60 backdrop-blur-xl border border-white/5 shadow-2xl;
+}
+
+.glass-input {
+  @apply bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-dark-accent/50 transition-all;
+}
+
+.glass-button {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-300 active:scale-95;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20;
+}
+
+/* Markdown Styles */
+.prose-invert h1,
+.prose-invert h2,
+.prose-invert h3 {
+  @apply text-white font-semibold mt-6 mb-4;
+}
+
+.prose-invert p {
+  @apply mb-4 leading-relaxed text-gray-300;
+}
+
+.prose-invert ul {
+  @apply list-disc list-inside mb-4 space-y-1 text-gray-300;
+}
+
+.prose-invert strong {
+  @apply text-dark-accent font-bold;
+}

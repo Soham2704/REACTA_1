@@ -1,0 +1,40 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765274428318",
+    "city": "Pune",
+    "inputs": {
+        "plot_size": 800,
+        "location": "Suburbs",
+        "road_width": 10.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 60.0,
+        "plot_deductions": 2.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 09, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n* **Plot Size:** 800 sq. m.\n* **Location Type:** Suburbs\n* **Abutting Road Width:** 10.0 m.\n* **Zoning:** Residential (R-Zone)\n* **Proposed Use:** Residential Building\n* **Proposed Height:** 15.0\n* **Gross Plot Area:** 800 sq. m. sq. m.\n* **Deductions:** 2.0 sq. m.\n* **Net Plot Area:** 798.0 sq. m.\n* **ASR Rate:** \u20b960.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\n\nThe analysis indicates that the proposed residential development on the 800 sq. m. plot, abutting a 10.0 m. road, perfectly aligns with the criteria for specific setback regulations found in the provided context. The plot size (798.0 sq. m. net) falls within the 501 sq. m. to 1000 sq. m. bracket, and the road width (10.0 m.) falls within the 9 m. to 15 m. range.\n\nThe fundamental entitlement for Floor Space Index (FSI) is established at 1.1 (Base FSI). However, critical regulations regarding Premium FSI, Transferable Development Rights (TDR), and maximum permissible height are absent, meaning the analysis is currently limited to the Base FSI entitlement only.\n\n**Citations:**\n*   **Setback Requirements:** Front Margin (3.0 m.), Side Margin (1.5 m.), Rear Margin (1.5 m.).\n    *   *Rule Excerpt:* \"Setbacks for residential plots 501-1000sqm on 9m-15m roads.\" (Page N/A)\n*   **Base FSI Entitlement:** Base FSI of 1.1.\n    *   *Rule Excerpt:* \"Standard base FSI for PMRDA region.\" (Page N/A)\n\n#### **2. Entitlements & Calculations**\n\nBased on the Net Plot Area (NPA) of 798.0 sq. m., the following development potential is calculated using the established Base FSI of 1.1. Since no rules for Premium FSI or TDR were provided, these entitlements are assumed to be zero for the purpose of this calculation.\n\n**Required Setbacks:**\n*   **Front Margin:** 3.0 m.\n*   **Side Margin:** 1.5 m.\n*   **Rear Margin:** 1.5 m.\n\n**FSI and Built-Up Area (BUA) Calculations (Net Plot Area = 798.0 sq. m.):**\n\n| Entitlement Type | Permissible FSI | FSI Area (sq. m.) | Calculation (NPA * FSI) |\n| :--- | :--- | :--- | :--- |\n| **Base FSI** | 1.1 | 877.8 | 798.0 sq. m. * 1.1 |\n| Premium FSI | 0.0 | 0.0 | N/A (Rules missing) |\n| TDR Utilization | 0.0 | 0.0 | N/A (Rules missing) |\n| **Total Permissible FSI** | **1.1** | **877.8** | **Total Permissible BUA** |\n\n**Permissible Height:**\n*   **Proposed Height:** 15.0 m.\n*   **Maximum Permissible Height:** Undetermined (Rules missing).\n\n**Financial Analysis (Premium FSI Cost):**\nSince the permissible Premium FSI is 0.0 (due to missing regulations), the associated cost calculation is zero.\n\n*   ASR Rate: \u20b960.0/sq.m.\n*   Premium FSI Area: 0.0 sq. m.\n*   Cost = 0.5 * ASR * Premium FSI Area\n*   **Premium FSI Cost:** \u20b90.0\n\n#### **3. Key Missing Information**\n\nTo complete a comprehensive regulatory analysis and maximize the development potential of the plot, the following critical information is required:\n\n1.  **Premium FSI Regulations:** Specific rules defining the quantum of Premium FSI permitted for a 10.0 m. road width in the R-Zone/Suburbs, including the associated payment structure and eligibility criteria.\n2.  **TDR Utilization Rules:** Regulations governing the maximum permissible utilization of Transferable Development Rights (TDR) on the plot.\n3.  **Maximum Permissible Height:** The maximum height (in meters) allowed for a residential building in this zone, particularly concerning the 10.0 m. road width and the proposed height of 15.0 m.\n4.  **Ground Coverage/Plot Coverage:** Rules defining the maximum percentage of the plot area that can be covered by the plinth of the building.\n\n#### **4. Recommended Next Steps**\n\nThe client should undertake the following actions to finalize the development plan:\n\n1.  **Source Complete FSI Regulations:** Immediately obtain the full zoning regulations defining Premium FSI and TDR utilization limits specific to the Residential (R-Zone) in the Suburbs context. This is crucial for maximizing the built-up area beyond the current 877.8 sq. m. Base BUA.\n2.  **Verify Building Height:** Confirm the maximum permissible building height allowed by the governing authority to ensure the proposed 15.0 m. height complies with fire safety and zoning norms.\n3.  **Calculate Ground Coverage:** Once the maximum permissible Ground Coverage percentage is secured, calculate the maximum allowable footprint of the structure to ensure compliance with the required setbacks (3.0 m. Front, 1.5 m. Side/Rear).\n4.  **Preliminary Design Review:** Initiate preliminary architectural drawings incorporating the established setbacks and the calculated Base BUA (877.8 sq. m.) while awaiting clarification on Premium FSI entitlements.\n\n---\n**Disclaimer:** This report is an automated analysis based strictly on the provided case parameters and the text excerpts found in the context. It does not constitute final legal advice or regulatory approval. All conclusions regarding FSI and setbacks must be verified against the full, official Development Control Regulations (DCR) of the relevant municipal authority prior to submitting any building plans.",
+        "rules_from_db": [
+            {
+                "front_margin_m": 3.0,
+                "side_margin_m": 1.5,
+                "rear_margin_m": 1.5
+            },
+            {
+                "base_fsi": 1.1
+            }
+        ],
+        "carpet_area_sqm": 560.0
+    },
+    "rl_decision": {
+        "optimal_action": 2,
+        "confidence_score": 0.34
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765274428318_geometry.stl",
+    "calculated_geometry": {
+        "width": 28.284271247461902,
+        "depth": 28.284271247461902,
+        "height": 10.0
+    },
+    "logs": "/logs/case_1765274428318"
+}

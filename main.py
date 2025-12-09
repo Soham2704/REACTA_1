@@ -119,13 +119,20 @@ def shutdown_event():
 # --- 6. API Endpoints ---
 @app.post("/run_case", summary="Run the full compliance pipeline for a single case")
 def run_case_endpoint(case_input: CaseInput):
+    logger.info(f"Received /run_case request for case {case_input.case_id}")
+    logger.info(f"Input Parameters: {case_input.parameters.dict()}")
+
     if not state.is_initialized:
+        logger.error("System state is not initialized.")
         raise HTTPException(status_code=503, detail="System is initializing. Please try again.")
     try:
-        return process_case_logic(case_input.dict(), state)
+        result = process_case_logic(case_input.dict(), state)
+        logger.info(f"Case {case_input.case_id} processed successfully.")
+        return result
     except Exception as e:
         logger.error(f"Error in /run_case: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail=str(e))
+        # Return the actual error message to the frontend for debugging
+        raise HTTPException(status_code=500, detail=f"Pipeline Error: {str(e)}")
 
 @app.post("/feedback", summary="Submit feedback for a processed case")
 def feedback_endpoint(feedback: FeedbackInput):
