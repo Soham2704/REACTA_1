@@ -22,17 +22,24 @@ function App() {
   };
 
   return (
-    <div className="flex bg-dark-bg min-h-screen text-gray-100 font-sans selection:bg-dark-accent selection:text-white">
+    // Replaced bg-dark-bg with transparent to let global gradient show
+    <div className="flex min-h-screen text-gray-100 font-sans selection:bg-purple-500 selection:text-white overflow-hidden">
       <Sidebar onRun={handleRunPipeline} isRunning={loading} />
-      <main className="flex-1 relative">
-        <ReportView data={report} isLoading={loading} />
-        <FeedbackWidget reportData={report} />
+      <main className="flex-1 relative z-10 flex flex-col h-screen overflow-hidden">
+        {/* Top padding to account for layout spacing if needed */}
+        <div className="flex-1 overflow-y-auto w-full">
+          <ReportView data={report} isLoading={loading} />
+          <FeedbackWidget reportData={report} />
+        </div>
       </main>
 
-      {/* Background Decor */}
-      <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-[-1] opacity-30">
-        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-indigo-600/20 rounded-full blur-[128px]"></div>
-        <div className="absolute bottom-[-10%] left-[20%] w-[400px] h-[400px] bg-emerald-600/10 rounded-full blur-[128px]"></div>
+      {/* Cosmic Background Ambience (ExamAi/Space Style) */}
+      <div className="fixed inset-0 pointer-events-none z-0">
+        <div className="absolute top-[-20%] right-[-10%] w-[800px] h-[800px] bg-purple-900/20 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow"></div>
+        <div className="absolute bottom-[-20%] left-[-10%] w-[600px] h-[600px] bg-indigo-900/20 rounded-full blur-[100px] mix-blend-screen"></div>
+
+        {/* Subtle Stars/Noise */}
+        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-150 contrast-150"></div>
       </div>
     </div>
   );

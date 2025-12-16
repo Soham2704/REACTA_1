@@ -11,7 +11,9 @@ import uuid
 
 # --- SETUP & PROMPT (UNCHANGED) ---
 load_dotenv()
-os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY") 
+# Configure GenAI to ignore warnings if necessary or set specific transport options if needed.
+
 EXTRACTION_PROMPT ="""
 You are a hyper-precise AI data analyst. Your sole task is to read a block of unstructured text from a regulatory document and extract any specific, quantifiable rules into a structured JSON format.
 
@@ -57,11 +59,13 @@ You must extract rules into a list of JSON objects, where each object has the fo
 # --- RULE EXTRACTION AGENT (UNCHANGED) ---
 class RuleExtractionAgent:
     def __init__(self):
+        # Enable the LLM for rule extraction
         try:
-            self.llm = ChatGoogleGenerativeAI(model="gemini-pro-latest", temperature=0.0)
+            self.llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.0)
             self.prompt = PromptTemplate.from_template(EXTRACTION_PROMPT)
             self.chain = self.prompt | self.llm
             self.offline_mode = False
+            print("[CONFIG] AI Rule Extraction ENABLED (Gemini 2.5 Flash).")
         except Exception as e:
             print(f"[{e}] LLM Init failed. Switching to OFFLINE PASSTHROUGH MODE.")
             self.offline_mode = True
@@ -105,17 +109,21 @@ class RuleExtractionAgent:
             }]
 
 def process_page(page_data, city_name, agent):
+    # Extract page number and content
     text_content = page_data.get('content', '')
+    page_num = page_data.get('page', 0) # Default to 0 if missing
+
     if len(text_content) < 200: return []
     
     found_rules = agent.extract_rules_from_text(text_content, city_name)
     
-    # Attach source text to each rule so we can use it for vector embedding later
+    # Attach source text and page number to each rule
     results_with_source = []
     for rule in found_rules:
         results_with_source.append({
             "rule": rule,
-            "source_text": text_content # This will be the document content in Chroma
+            "source_text": text_content, # This will be the document content in Chroma
+            "page_number": page_num
         })
     return results_with_source
 
@@ -166,8 +174,9 @@ def run_extraction_pipeline(input_path: str, city_name: str):
         source_text = item["source_text"]
         
         # Add to ChromaDB
-        # We pass the full source text as the document content
-        success = db_client.add_rule(rule_data, document_content=source_text)
+        # We pass the full source text as the document content, AND the page number
+        page_num = item.get("page_number", 0)
+        success = db_client.add_rule(rule_data, document_content=source_text, page_number=page_num)
         if success:
             total_rules_committed += 1
     

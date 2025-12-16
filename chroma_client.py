@@ -22,7 +22,7 @@ class ChromaDBClient:
         self.collection = self.client.get_or_create_collection(name="rules")
         print("ChromaDB 'rules' collection ready.")
 
-    def add_rule(self, rule_data: Dict[str, Any], document_content: Optional[str] = None):
+    def add_rule(self, rule_data: Dict[str, Any], document_content: Optional[str] = None, **kwargs):
         """
         Adds a rule to the ChromaDB collection.
         
@@ -42,6 +42,7 @@ class ChromaDBClient:
             "city": rule_data.get("city", "Unknown"),
             "rule_type": rule_data.get("rule_type", "General"),
             "notes": rule_data.get("notes", ""),
+            "page_number": kwargs.get("page_number", 0), # Store page number in metadata
             # Store the full JSON string so we can reconstruct the object later
             "full_json": json.dumps(rule_data) 
         }
@@ -133,11 +134,29 @@ class ChromaDBClient:
             
             found_rules = []
             if results["metadatas"] and results["metadatas"][0]:
-                for meta in results["metadatas"][0]:
+                for i, meta in enumerate(results["metadatas"][0]):
+                    rule_obj = {}
                     if "full_json" in meta:
                         try:
-                            found_rules.append(json.loads(meta["full_json"]))
+                            rule_obj = json.loads(meta["full_json"])
                         except: pass
+                    
+                    if results["documents"] and results["documents"][0][i]:
+                         doc_content = results["documents"][0][i]
+                         # Only overwrite 'notes' if this is a RawText chunk (unstructured)
+                         # For structured rules, we prefer the AI-generated 'notes' (summary), 
+                         # but we attach the full text as 'source_evidence' for reference.
+                         if rule_obj.get("rule_type") == "RawText":
+                             rule_obj["notes"] = doc_content
+                         else:
+                             rule_obj["source_evidence"] = doc_content
+
+                    # Inject page_number from metadata if available
+                    if "page_number" in meta:
+                         rule_obj["page_number"] = meta["page_number"]
+
+                    if rule_obj:
+                        found_rules.append(rule_obj)
 
             # 2. Semantic Fallback (If strictly structured search yields too few results,
             #    or if we are likely dealing with RawText chunks that lack metadata)
@@ -145,8 +164,15 @@ class ChromaDBClient:
                 print("Structured search yielded low results. Attempting Semantic Search...")
                 
                 # Construct a natural language query from parameters
-                # ENHANCED QUERY: Explicitly ask for height, setbacks, premium, parking, and FCA
-                nl_query = f"Zoning rules FSI floor space index permissible height setbacks side margin rear margin premium FSI rate exclusions parking requirements fungible compensatory area FCA for {city}"
+                # Construct a natural language query from parameters
+                # ENHANCED QUERY: Auto-adapt terminology based on city
+                if city == "Delhi":
+                     # Delhi uses FAR, Ground Coverage, MPD-2021 terms
+                     nl_query = f"Master Plan Delhi MPD 2021 zoning regulations residential plot development controls FAR Floor Area Ratio Ground Coverage max height setbacks parking standards for {city}"
+                else:
+                     # Mumbai/Pune/Nashik use FSI, Fungible, TDR terms
+                     nl_query = f"Zoning rules FSI floor space index permissible height setbacks side margin rear margin premium FSI rate exclusions parking requirements fungible compensatory area FCA for {city}"
+
                 if "road_width_m" in parameters:
                     nl_query += f" with road width {parameters['road_width_m']} meters"
                 if "plot_area_sqm" in parameters:
@@ -154,8 +180,11 @@ class ChromaDBClient:
                 if "location" in parameters:
                     nl_query += f" in {parameters['location']}"
                 
-                # Add explicit keywords to boost FSI retrieval
-                nl_query += " entitlements residential commercial generic"
+                # Add explicit keywords to boost retrieval
+                if city == "Delhi":
+                    nl_query += " residential group housing plotting MPD"
+                else:
+                    nl_query += " entitlements residential commercial generic"
                 
                 print(f"Semantic Query: '{nl_query}'")
                 

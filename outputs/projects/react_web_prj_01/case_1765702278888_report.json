@@ -1,0 +1,31 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765702278888",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 90.0,
+        "plot_deductions": 8.0
+    },
+    "entitlements": {
+        "analysis_summary": "### \u26a0\ufe0f AI Analysis Unavailable\n\n**Reason**: The AI service encountered a temporary error (403 Permission denied: Consumer 'api_key:AIzaSyAKZmJdxG1IsRLKCBvN6bBb-OLRuX7dAJ8' has been suspended. [reason: \"CONSUMER_SUSPENDED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"api_key:AIzaSyAKZmJdxG1IsRLKCBvN6bBb-OLRuX7dAJ8\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/302653404092\"\n}\n, locale: \"en-US\"\nmessage: \"Permission denied: Consumer \\'api_key:AIzaSyAKZmJdxG1IsRLKCBvN6bBb-OLRuX7dAJ8\\' has been suspended.\"\n]). \n\n**Note**: The rest of your report (Calculations, Geometry, RL Decision) is available below.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765702278888_geometry.stl",
+    "calculated_geometry": {
+        "width": 26.202156766628818,
+        "depth": 38.01213804157182,
+        "height": 18.0
+    },
+    "logs": "/logs/case_1765702278888"
+}

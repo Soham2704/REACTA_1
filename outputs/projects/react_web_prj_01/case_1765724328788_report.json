@@ -1,0 +1,45 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765724328788",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 90.0,
+        "plot_deductions": 8.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 14, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 15.0 m.\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 8.0 sq. m.\n*   **Net Plot Area:** 1992.0 sq. m.\n*   **ASR Rate:** \u20b990.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nThe proposed development is for a Residential Building on a 1992.0 sq. m. net plot in the Island City's Residential Zone, abutting a 20.0 m wide road. Based on the Development Control and Promotion Regulation-2034 (DCPR-2034) for the Municipal Corporation of Greater Mumbai, the plot falls under the \"Island City, Residential/Commercial Zone\" category for FSI calculations. The 20.0 m road width places it in the \"18.00m & above but less than 27m\" category for FSI entitlements.\n\nThe applicable rules permit a Zonal (Basic) FSI, Additional FSI on payment of premium, and Admissible TDR (Transferable Development Rights), culminating in a total permissible FSI. An overall maximum FSI cap for plots up to 2000 sq. m. is also noted. Premium charges, where applicable for additional FSI, are calculated at 50% of the Annual Statement of Rates (ASR).\n\n**Citations:**\n*   Floor Space Indices in Residential, Commercial and Industrial Zones (Table 12): Page 83\n*   Additional FSI on payment of premium conditions (rate of 50% of ASR): Page 177, condition (a)\n*   Maximum permissible FSI based on plot area (Up to 2000 sq. m - 3.00): Page 182, VII\n\n#### **2. Entitlements & Calculations**\nBased on the Net Plot Area of 1992.0 sq. m. and the rules for Island City, Residential Zone, with a 20.0 m road width:\n\n| FSI Type                 | Value (as per rules) | Built-Up Area (BUA) (sq. m.) |\n| :----------------------- | :------------------- | :--------------------------- |\n| **Basic FSI**            | 1.33                 | 2649.36                      |\n| **Premium FSI**          | 0.73                 | 1454.16                      |\n| **TDR FSI**              | 0.64                 | 1274.88                      |\n| **Total Permissible FSI**| 2.70                 | 5378.40                      |\n| **Overall FSI Cap (for plot <= 2000 sq. m.)** | 3.00 (The calculated 2.70 FSI is within this cap) | - |\n| **Permissible Height**   | Not explicitly defined in context, proposed 15.0 m is assumed permissible pending further regulations. | - |\n\n**Financial Estimation (System Calculated):**\n*   **Inferred Premium FSI:** 0.3 (Standard Assumption)\n*   **Premium FSI Area:** 597.60 sq.m\n*   **Estimated Cost:** \u20b926,892.00 (Estimated at 50% of ASR per sq.m)\n\n#### **3. Key Missing Information**\nWhile a comprehensive FSI analysis is possible, the provided context lacks specific details regarding:\n*   **Explicit Height Restrictions:** The context does not specify maximum permissible building height for Residential Zones in Island City with a 20m road. The proposed height of 15.0 m is assumed to be within limits, but verification is required.\n*   **Setbacks and Ground Coverage:** Regulations pertaining to mandatory open spaces, setbacks from plot boundaries, and maximum ground coverage are not included, which are crucial for actual building footprint and design.\n*   **Parking Requirements:** Specific parking space requirements and how they might impact the developable area or FSI exemptions are not detailed, beyond general exemptions for parking from FSI calculation.\n*   **Specific Residential Building Guidelines:** Any particular architectural or amenity requirements specific to residential buildings in this zone are not provided.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\n\nDespite the abutting road width of 20.0 m which typically supports higher density developments, and the allowable total FSI of 2.70, the strategic recommendation is for a LOW DENSITY Residential project. This approach, focusing on a basic FSI of around 1.0 (compared to the permissible 1.33 Basic FSI), could be strategically beneficial. It allows for more spacious individual units, potentially higher quality of life for residents, reduced strain on local infrastructure, and alignment with market segments seeking less dense, more exclusive residential offerings. The plot size of 2000 sq. m. provides ample area to implement a low-density design effectively, allowing for generous open spaces and amenities.\n\n#### **5. Next Steps**\n1.  **Verify Height Regulations:** Consult the full DCPR-2034 document or local planning authority for explicit maximum permissible building heights for residential developments in the specified zone and road width.\n2.  **Obtain Detailed Development Control Norms:** Acquire complete information on setbacks, ground coverage, amenity space requirements, and parking regulations from the Municipal Corporation of Greater Mumbai to finalize the building design and site plan.\n3.  **Confirm TDR and Premium FSI Applicability:** Confirm the specific conditions and processes for availing the Premium FSI and TDR for a residential building project, including payment schedules and documentation.\n4.  **Engage Local Professionals:** Collaborate with a local architect and urban planner familiar with Mumbai's DCPR-2034 to translate these entitlements into a feasible and compliant building design.\n5.  **Detailed Cost Analysis:** Conduct a comprehensive financial feasibility study incorporating all applicable premiums, development charges, and construction costs based on the confirmed FSI utilization.\n---\n**Disclaimer:** This report is an automated analysis generated by an AI consultant based on the provided text context and user query parameters. It is intended for informational purposes only and does not constitute legal, planning, or financial advice. All interpretations and calculations should be independently verified with the relevant municipal authorities and qualified professionals before making any development decisions. The \"System Calculated\" financial estimation is presented as provided by the system parameters.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2191.2,
+            "estimated_profit": -54484188.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 5976.0,
+            "estimated_profit": -148763556.0
+        },
+        "value_add": -94279368.0,
+        "roi_increase_percent": 0
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765724328788_geometry.stl",
+    "calculated_geometry": {
+        "width": 26.202156766628818,
+        "depth": 38.01213804157182,
+        "height": 18.0
+    },
+    "logs": "/logs/case_1765724328788"
+}

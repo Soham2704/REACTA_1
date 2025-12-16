@@ -28,22 +28,40 @@ class ComplexEnv(gym.Env):
                 for line in f:
                     try:
                         feedback = json.loads(line)
-                        # Convert feedback into the same state/action format
-                        params = feedback['input']['parameters']
+                        if not feedback or 'input' not in feedback or 'output' not in feedback:
+                            continue
+                            
+                        # Safety check for None values
+                        inp = feedback.get('input') or {}
+                        outp = feedback.get('output') or {}
+                        
+                        params = inp.get('parameters')
+                        if not params: continue
+                        
                         location_map = {"urban": 0, "suburban": 1, "rural": 2}
-                        state = [params['plot_size'], location_map[params['location']], params['road_width']]
+                        loc_str = params.get('location', 'urban')
+                        if loc_str not in location_map: loc_str = 'urban'
+                        
+                        state = [
+                            float(params.get('plot_size', 0)), 
+                            float(location_map[loc_str]), 
+                            float(params.get('road_width', 0))
+                        ]
                         
                         # The action the agent took that the human voted on
-                        action_taken = feedback['output']['rl_optimal_action']
+                        # Check if 'rl_optimal_action' exists
+                        if 'rl_optimal_action' not in outp: continue
+                        action_taken = outp['rl_optimal_action']
                         
                         human_feedback_cases.append({
                             "state": state,
                             "action_taken": action_taken,
-                            "feedback": feedback['user_feedback'], # 'up' or 'down'
+                            "feedback": feedback.get('user_feedback', 'up'), # 'up' or 'down'
                             "source": 'human'
                         })
-                    except (json.JSONDecodeError, KeyError):
+                    except Exception as e:
                         # Skip corrupted lines in the feedback file
+                        # print(f"Skipping bad feedback line: {e}")
                         continue
 
         # Combine both knowledge sources into the final training set

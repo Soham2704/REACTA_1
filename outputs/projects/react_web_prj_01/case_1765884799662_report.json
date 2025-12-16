@@ -1,0 +1,45 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765884799662",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 35.0,
+        "asr_rate": 90.0,
+        "plot_deductions": 9.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 16, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 35.0 m.\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 9.0 sq. m.\n*   **Net Plot Area:** 1991.0 sq. m.\n*   **ASR Rate:** \u20b990.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nThe proposed residential building on a 2000 sq. m. plot in an Island City Residential Zone, abutting a 20.0 m wide road, is subject to the Development Control and Promotion Regulation-2034 (DCPR-2034) for Floor Space Indices. Based on the road width falling into the \"18.00m & above but less than 27m\" category for Island City Residential/Commercial Zones, a Zonal (Basic) FSI of 1.33 is permissible. Additionally, an FSI of 0.73 can be availed upon payment of premium, and an Admissible TDR (Transferable Development Rights) of 0.64 is available, leading to a total permissible FSI of 2.70.\n\nGeneral exemptions from FSI computation are also outlined, including areas for staircases, lift wells, parking in stilt/basement, and other ancillary uses, often subject to premium payment.\n\n**Citations:**\n*   Floor Space Indices in Residential, Commercial and Industrial Zones (TABLE 12, Page 83)\n*   PART V - FLOOR SPACE INDEX, Regulation 30 (A)(1) (Page 83)\n*   PART V - FLOOR SPACE INDEX, Regulation 31(1) (Exemption from FSI) (Page 88)\n*   PART VI - ADDITIONAL FLOOR SPACE INDEX, Regulation for premium payment for additional FSI (Page 177)\n\n#### **2. Entitlements & Calculations**\nUsing the Net Plot Area of 1991.0 sq. m., the entitlements are calculated as follows:\n\n| FSI Component                 | FSI (Ratio) | Built-Up Area (BUA) (sq. m.) |\n| :---------------------------- | :---------- | :--------------------------- |\n| Zonal (Basic) FSI             | 1.33        | 2648.03                      |\n| Premium FSI                   | 0.73        | 1453.43                      |\n| Admissible TDR                | 0.64        | 1274.24                      |\n| **Total Permissible FSI**     | **2.70**    | **5375.70**                  |\n\n**Financial Estimation (System Calculated):**\n*   **Calculated Premium FSI:** 0.73 (Based on context, 18m & above but less than 27m road width)\n*   **Premium FSI Area:** 1453.43 sq.m (1991.0 sq. m. * 0.73)\n*   **Estimated Cost:** \u20b965,404.35 (Estimated at 50% of ASR per sq.m for the Premium FSI Area: 1453.43 * (0.50 * \u20b990.0))\n\n#### **3. Key Missing Information**\nWhile a comprehensive FSI calculation is possible, the following critical information is not available in the provided context:\n*   **Maximum Permissible Building Height:** No specific height restrictions are provided for residential buildings in Island City based on road width or FSI. The proposed height of 35.0 m needs to be checked against specific height regulations not present in the excerpt.\n*   **Setback and Open Space Requirements:** Details regarding mandatory setbacks from property lines and specific open space percentages for residential zones are crucial for actual building footprint and design, but are not included.\n*   **Parking Requirements:** While the context mentions exemptions for parking areas from FSI, the *required* number of parking spaces or minimum parking provisions are not specified.\n*   **Tenement Density:** Although \"Tenement Density\" is mentioned in Regulation 30, no specific density norms or limits are provided.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\nThe System's Reinforcement Learning Agent recommends a LOW DENSITY Residential strategy, approximating a Basic FSI of 1.0.\n\n**Explanation:** While the regulations for a 20.0 m wide road in Island City permit a significantly higher total FSI of 2.70 (which would typically support a medium-to-high density development), the AI's recommendation for \"LOW DENSITY (Basic FSI ~1.0)\" suggests a more conservative approach. This strategy might be influenced by factors beyond the explicit FSI allowances, such as preserving neighborhood character, optimizing for specific market segments, or internal AI model parameters related to plot geometry and existing urban fabric. However, from a purely regulatory perspective based on the provided rules, the substantial road width of 20.0 m clearly supports the viability of a higher-density residential building, potentially utilizing the full permissible FSI of 2.70.\n\n#### **5. Next Steps**\n1.  **Verify Height Restrictions:** Consult the full DCPR-2034 for specific maximum permissible building heights for residential developments in Island City with a 20.0 m road width to ensure the proposed 35.0 m height is compliant.\n2.  **Review Setback and Open Space Norms:** Obtain detailed regulations on mandatory setbacks, side margins, and open space requirements to accurately determine the developable footprint and building envelope.\n3.  **Assess Parking Requirements:** Identify the minimum parking provisions required for a residential building of the calculated BUA to ensure adequate parking is incorporated into the design, potentially utilizing FSI-exempt areas.\n4.  **Detailed Financial Feasibility:** Conduct a comprehensive financial feasibility study considering the premium payment for additional FSI, TDR costs, construction costs, and market values for the calculated BUA.\n5.  **Pre-Application Meeting:** Consider a pre-application meeting with the Municipal Corporation of Greater Mumbai (MCGM) planning department to discuss the proposed development and clarify any ambiguities in the regulations.\n---\n**Disclaimer:** This report is an automated analysis based on the provided context and user query parameters. It serves as an initial guideline and does not constitute legal advice or a final planning approval. All calculations and interpretations should be verified with the relevant planning authorities and official development control regulations. Specific site conditions, environmental factors, and other local bylaws may also impact development potential.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2190.1,
+            "estimated_profit": 54752500.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 5973.0,
+            "estimated_profit": 149154769.5
+        },
+        "value_add": 94402269.5,
+        "roi_increase_percent": 172.4
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765884799662_geometry.stl",
+    "calculated_geometry": {
+        "width": 18.785919246789824,
+        "depth": 27.25293459668817,
+        "height": 35.0
+    },
+    "logs": "/logs/case_1765884799662"
+}

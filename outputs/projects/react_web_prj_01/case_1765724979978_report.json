@@ -1,0 +1,45 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765724979978",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 90.0,
+        "plot_deductions": 8.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 14, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 15.0\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 8.0 sq. m.\n*   **Net Plot Area:** 1992.0 sq. m.\n*   **ASR Rate:** \u20b990.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nBased on the provided Development Control and Promotion Regulation-2034 (DCPR-2034) for the Municipal Corporation of Greater Mumbai, the plot located in the Island City, zoned Residential (R-Zone), with an abutting road width of 20.0 meters, is eligible for a total Floor Space Index (FSI) of 2.70. This total FSI is a combination of Zonal (Basic) FSI, additional FSI available upon payment of premium, and admissible Transferable Development Rights (TDR). The premium for additional FSI is generally calculated at 50% of the Annual Statement of Rates (ASR) for open developed land. The regulations also detail various areas that are exempt from FSI computation, such as parking spaces, staircases, and lift wells, often subject to specific conditions or premium payments.\n\n**Citations:**\n*   **Floor Space Indices in Residential, Commercial and Industrial Zones (Table 12):** Page 83, Part V - FLOOR SPACE INDEX, Regulation 30(A)(1)\n*   **Premium for Additional FSI:** Page 177, Part VI - ADDITIONAL FLOOR SPACE INDEX, Regulation 30(A)(1)(a)\n*   **Exemption from FSI:** Page 88, Part V - FLOOR SPACE INDEX, Regulation 31(1)\n\n#### **2. Entitlements & Calculations**\nUsing the rules from DCPR-2034, specifically Table 12 for Island City with a road width of \"18.00m & above but less than 27m\", the following entitlements and calculations apply based on the **Net Plot Area of 1992.0 sq. m.**:\n\n| Entitlement Category     | FSI Value | Built-Up Area (BUA) (sq. m.) |\n| :----------------------- | :-------- | :--------------------------- |\n| **Zonal (Basic) FSI**    | 1.33      | 2649.36                      |\n| **Premium FSI**          | 0.73      | 1454.16                      |\n| **Admissible TDR**       | 0.64      | 1274.88                      |\n| **Total Permissible FSI**| **2.70**  | **5378.40**                  |\n| **Permissible Height**   | N/A       | Proposed: 15.0 m (No explicit maximum height for Residential buildings found in context) |\n\n**Financial Estimation (System Calculated):**\n*   **Inferred Premium FSI:** 0.3 (Standard Assumption)\n*   **Premium FSI Area:** 597.60 sq.m (1992.0 sq. m. * 0.3)\n*   **Estimated Cost:** \u20b926,892.00 (Estimated at 50% of ASR per sq.m for 0.3 Premium FSI)\n\n#### **3. Key Missing Information**\nWhile a comprehensive analysis of FSI and BUA potential has been performed, the following critical information is not explicitly detailed in the provided context:\n\n*   **Specific Maximum Height Restrictions for Residential Buildings:** The context provides FSI entitlements but does not specify a maximum permissible building height for residential developments in the Island City based on road width or zoning. The proposed height of 15.0m is noted, but its compliance with overall height limits cannot be fully assessed.\n*   **Setback Requirements:** Regulations regarding mandatory front, side, and rear setbacks are crucial for determining the actual building footprint and overall site plan, but are not present in the provided excerpts.\n*   **Ground Coverage Limits:** Information on the maximum permissible percentage of the plot area that can be covered by the building footprint is missing.\n*   **Parking Requirements:** While some areas for parking are exempted from FSI, detailed parking ratios (e.g., number of spaces per dwelling unit or per area of development) are not provided.\n*   **Specific Definition of \"Residential (R-Zone)\":** While the FSI table covers Residential/Commercial, a more detailed definition of permitted activities or specific residential dwelling unit standards is absent.\n\nDespite these missing details, the FSI and BUA calculations provide a strong foundation for understanding the development potential.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\n\nAlthough the regulations permit a significantly higher FSI of 2.70 due to the 20.0m wide abutting road in an Island City location, the system's reinforcement learning agent recommends a LOW DENSITY Residential approach, aligning with a Basic FSI of approximately 1.0. This strategy may be recommended for several reasons despite the higher potential:\n*   **Proposed Building Height:** The user's proposed height of 15.0m is relatively modest compared to the potential vertical development allowed by a 2.70 FSI. Adopting a lower density approach could allow for larger, more spacious units and greater open space per unit within this height constraint.\n*   **Market Demand/Aesthetics:** In certain \"Island City\" contexts, there might be a premium or preference for lower-density, more exclusive residential developments with ample green spaces, rather than maximizing vertical BUA.\n*   **Infrastructure Constraints (Implicit):** While not explicitly stated in the rules, an AI agent might infer from broader data that even with wide roads, other critical infrastructure (water, sewage, power) or specific neighborhood character preservation goals in an \"Island City\" could favor a lower density development to ensure long-term sustainability and quality of life.\n*   **Reduced Complexity & Cost:** Opting for a lower FSI development can often reduce construction complexity, timeline, and associated costs, potentially offering a more streamlined project.\n\nThis strategy allows for a quality development that may appeal to a specific market segment, prioritizing spaciousness and potentially more open amenities over maximum permissible density.\n\n#### **5. Next Steps**\n1.  **Verify Height Restrictions:** Consult the full DCPR-2034 document or the Municipal Corporation of Greater Mumbai directly to confirm specific maximum permissible building heights for residential structures in the R-Zone of the Island City, ensuring the proposed 15.0m height is compliant.\n2.  **Obtain Detailed Setback & Ground Coverage Rules:** Secure precise regulations for front, side, and rear setbacks, as well as maximum ground coverage, to accurately design the building footprint and site layout.\n3.  **Clarify Parking Requirements:** Determine the exact parking ratios and requirements to ensure adequate provision and identify any additional FSI exemptions for parking.\n4.  **Detailed Financial Feasibility Study:** Conduct a comprehensive financial analysis incorporating actual construction costs, market values, and the precise premium calculations for the desired FSI, particularly if pursuing higher FSI beyond the \"Inferred Premium FSI\" used in this report's estimation.\n5.  **Preliminary Architectural Design:** Begin conceptual design work, integrating the calculated FSI, proposed height, and anticipated setback/ground coverage rules to visualize the potential development.\n---\n**Disclaimer:** This report is an automated analysis based on the provided textual context and user parameters. It does not constitute legal advice or formal planning approval. All calculations and interpretations should be verified with the relevant municipal authorities and a licensed planning professional or architect. The \"Strategic Recommendation\" is generated by an AI policy engine and may reflect general trends or unstated parameters; specific project goals and market conditions should always guide final development decisions.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2191.2,
+            "estimated_profit": 54780000.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 5976.0,
+            "estimated_profit": 149229684.0
+        },
+        "value_add": 94449684.0,
+        "roi_increase_percent": 172.4
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765724979978_geometry.stl",
+    "calculated_geometry": {
+        "width": 26.202156766628818,
+        "depth": 38.01213804157182,
+        "height": 18.0
+    },
+    "logs": "/logs/case_1765724979978"
+}

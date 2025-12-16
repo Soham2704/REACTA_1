@@ -1,578 +1,182 @@
 [
     {
         "state": [
-            500,
+            305,
             0,
-            6
+            7.5
         ],
-        "correct_action": 1
+        "correct_action": 1,
+        "city_context": "Pune"
     },
     {
         "state": [
-            500,
+            1985,
             0,
-            9
+            24.0
         ],
-        "correct_action": 1
+        "correct_action": 1,
+        "city_context": "Mumbai"
     },
     {
         "state": [
-            500,
+            2628,
+            2,
+            7.5
+        ],
+        "correct_action": 1,
+        "city_context": "Mumbai"
+    },
+    {
+        "state": [
+            1657,
             0,
-            12
+            15.0
         ],
-        "correct_action": 3
+        "correct_action": 1,
+        "city_context": "Nashik"
     },
     {
         "state": [
-            500,
+            3376,
             0,
-            18
+            18.0
         ],
-        "correct_action": 4
+        "correct_action": 1,
+        "city_context": "Nashik"
     },
     {
         "state": [
-            500,
+            4263,
+            1,
+            9.0
+        ],
+        "correct_action": 1,
+        "city_context": "Pune"
+    },
+    {
+        "state": [
+            4401,
+            2,
+            15.0
+        ],
+        "correct_action": 1,
+        "city_context": "Pune"
+    },
+    {
+        "state": [
+            477,
+            1,
+            12.0
+        ],
+        "correct_action": 1,
+        "city_context": "Pune"
+    },
+    {
+        "state": [
+            316,
             0,
-            24
+            24.0
         ],
-        "correct_action": 4
+        "correct_action": 1,
+        "city_context": "Pune"
     },
     {
         "state": [
-            500,
+            2146,
+            2,
+            24.0
+        ],
+        "correct_action": 1,
+        "city_context": "Mumbai"
+    },
+    {
+        "state": [
+            4629,
             0,
-            30
+            7.5
         ],
-        "correct_action": 4
+        "correct_action": 1,
+        "city_context": "Mumbai"
     },
     {
         "state": [
-            500,
+            3891,
             1,
-            6
+            12.0
         ],
-        "correct_action": 1
+        "correct_action": 1,
+        "city_context": "Pune"
     },
     {
         "state": [
-            500,
+            1638,
             1,
-            9
+            30.0
         ],
-        "correct_action": 1
+        "correct_action": 1,
+        "city_context": "Nashik"
     },
     {
         "state": [
-            500,
-            1,
-            12
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            500,
-            1,
-            18
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            500,
-            1,
-            24
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            500,
-            1,
-            30
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            500,
-            2,
-            6
-        ],
-        "correct_action": 1
-    },
-    {
-        "state": [
-            500,
-            2,
-            9
-        ],
-        "correct_action": 1
-    },
-    {
-        "state": [
-            500,
-            2,
-            12
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            500,
-            2,
-            18
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            500,
-            2,
-            24
-        ],
-        "correct_action": 0
-    },
-    {
-        "state": [
-            500,
-            2,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
+            1867,
             0,
-            6
+            12.0
         ],
-        "correct_action": 3
+        "correct_action": 1,
+        "city_context": "Mumbai"
     },
     {
         "state": [
-            1500,
+            2084,
+            1,
+            24.0
+        ],
+        "correct_action": 1,
+        "city_context": "Mumbai"
+    },
+    {
+        "state": [
+            3278,
+            1,
+            9.0
+        ],
+        "correct_action": 1,
+        "city_context": "Mumbai"
+    },
+    {
+        "state": [
+            3620,
             0,
-            9
+            9.0
         ],
-        "correct_action": 2
+        "correct_action": 1,
+        "city_context": "Nashik"
     },
     {
         "state": [
-            1500,
+            4080,
+            1,
+            6.0
+        ],
+        "correct_action": 1,
+        "city_context": "Nashik"
+    },
+    {
+        "state": [
+            4087,
             0,
-            12
+            9.0
         ],
-        "correct_action": 3
+        "correct_action": 1,
+        "city_context": "Nashik"
     },
     {
         "state": [
-            1500,
-            0,
-            18
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            0,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            0,
-            30
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            1500,
+            1075,
             1,
-            6
+            24.0
         ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            1,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            1,
-            12
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            1,
-            18
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            1,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            1,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            6
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            12
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            18
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            1500,
-            2,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            0,
-            6
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            0,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            0,
-            12
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            0,
-            18
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            0,
-            24
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            0,
-            30
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            1,
-            6
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            1,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            1,
-            12
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            1,
-            18
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            1,
-            24
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            1,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            2,
-            6
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            2,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            2,
-            12
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            3000,
-            2,
-            18
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            2,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            3000,
-            2,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            0,
-            6
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            0,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            0,
-            12
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            0,
-            18
-        ],
-        "correct_action": 2
-    },
-    {
-        "state": [
-            4500,
-            0,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            0,
-            30
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            1,
-            6
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            1,
-            9
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            1,
-            12
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            1,
-            18
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            1,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            1,
-            30
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            2,
-            6
-        ],
-        "correct_action": 4
-    },
-    {
-        "state": [
-            4500,
-            2,
-            9
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            2,
-            12
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            2,
-            18
-        ],
-        "correct_action": 0
-    },
-    {
-        "state": [
-            4500,
-            2,
-            24
-        ],
-        "correct_action": 3
-    },
-    {
-        "state": [
-            4500,
-            2,
-            30
-        ],
-        "correct_action": 3
+        "correct_action": 1,
+        "city_context": "Nashik"
     }
 ]

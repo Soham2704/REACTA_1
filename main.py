@@ -2,6 +2,7 @@ import json
 import os
 import uvicorn
 from fastapi import FastAPI, HTTPException, Response
+from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
@@ -89,9 +90,9 @@ def startup_event():
             logger.warning("GEMINI_API_KEY not found in .env. AI features will be disabled.")
             state.llm = None
         else:
-            # Use gemini-1.5-flash for better free-tier performance and higher rate limits
+            # Use gemini-2.5-flash for better free-tier performance and higher rate limits
             state.llm = ChatGoogleGenerativeAI(
-                model="gemini-flash-latest",
+                model="gemini-2.5-flash",
                 google_api_key=os.getenv("GEMINI_API_KEY"),
                 max_retries=3,
                 request_timeout=60

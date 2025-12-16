@@ -1,0 +1,31 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1765697023834",
+    "city": "Pune",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Congested Area",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 90.0,
+        "plot_deductions": 9.0
+    },
+    "entitlements": {
+        "analysis_summary": "### \u26a0\ufe0f AI Analysis Unavailable\n\n**Reason**: The AI service encountered a temporary error (Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]). \n\n**Note**: The rest of your report (Calculations, Geometry, RL Decision) is available below.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 2800.0
+    },
+    "rl_decision": {
+        "optimal_action": 2,
+        "confidence_score": 0.85
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1765697023834_geometry.stl",
+    "calculated_geometry": {
+        "width": 23.430157839029967,
+        "depth": 33.9903813483218,
+        "height": 15.0
+    },
+    "logs": "/logs/case_1765697023834"
+}

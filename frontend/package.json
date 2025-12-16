@@ -12,14 +12,18 @@
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
+    "@react-three/postprocessing": "^3.0.4",
     "axios": "^1.13.2",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
+    "katex": "^0.16.27",
     "lucide-react": "^0.556.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
     "tailwind-merge": "^3.4.0",
     "three": "^0.181.2"
   },
