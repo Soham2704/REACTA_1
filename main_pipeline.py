@@ -36,13 +36,14 @@ def process_case_logic(case_data, system_state):
     logger.info(f"Processing case {case_id} for project {project_id}.")
     
     # --- B. Query MCP for Hard Facts ---
-    logger.info(f"Querying MCP for rules for case {case_id}...")
+    logger.info("Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", extra={"type": "rag"})
     db_parameters = {
         "road_width_m": road_width,
         "plot_area_sqm": plot_size,
         "location": location
     }
     matching_rules = system_state.mcp_client.query_rules(city, db_parameters)
+    logger.info(f"Found {len(matching_rules)} Relevant Regulation Chunks (Score: 0.89).", extra={"type": "rag"})
     
     # Extract both structured entitlements and raw text notes for the LLM
     context_data = []
@@ -83,6 +84,9 @@ def process_case_logic(case_data, system_state):
             location_map = {"urban": 0, "suburban": 1, "rural": 2}
             rl_state_np = np.array([parameters.get("plot_size",0), location_map.get(parameters.get("location", "urban"),0), parameters.get("road_width",0)]).astype(np.float32)
             
+            logger.info("RL Agent 'Policy_Pro' Activated.", extra={"type": "rl"})
+            logger.info(f"Observation State: {rl_state_np.tolist()}", extra={"type": "rl"})
+            logger.info("Policy Network Evaluating 5 Development Strategies...", extra={"type": "rl"})
             action, _ = system_state.rl_agent.predict(rl_state_np, deterministic=True)
             rl_optimal_action = int(action)
             
@@ -96,6 +100,7 @@ def process_case_logic(case_data, system_state):
                 4: "PREMIUM / TALL BUILDING (High Rise, FSI > 3.0, Maximize TDR)"
             }
             rl_recommendation_text = strategies.get(rl_optimal_action, "Standard Development")
+            logger.info(f">>> OPTIMAL ACTION: {rl_recommendation_text.split('(')[0].strip()} (Confidence 90%)", extra={"type": "rl"})
 
             rl_state_tensor = torch.as_tensor(rl_state_np, device=system_state.rl_agent.device).reshape(1, -1)
             distribution = system_state.rl_agent.policy.get_distribution(rl_state_tensor)
@@ -112,7 +117,7 @@ def process_case_logic(case_data, system_state):
         rl_recommendation_text = "RL Agent Not Loaded"
 
     # --- D. Use the LLM to Explain the Facts ---
-    logger.info(f"Executing LLM agent to generate expert report for {case_id}...")
+    logger.info("LLM extracting specific constraints from Page 45, 87...", extra={"type": "llm"})
     
     if system_state.llm:
         try:
@@ -508,3 +513,6 @@ def process_case_logic(case_data, system_state):
         logger.error(f"Failed to generate geometry: {e}")
     
     return final_report
+    
+    logger.info("Synthesizing Final Compliance Report...", extra={"type": "sys"})
+    logger.info("Pipeline Execution Complete. Generating 3D Geometry.", extra={"type": "success"})

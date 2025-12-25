@@ -1,0 +1,45 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1766272045529",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 30.0,
+        "asr_rate": 20000.0,
+        "plot_deductions": 9.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 20, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 30.0\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 9.0 sq. m.\n*   **Net Plot Area:** 1991.0 sq. m.\n*   **ASR Rate:** \u20b920000.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nThe property, situated in the Island City with a net plot area of 1991.0 sq. m. and an abutting road width of 20.0 m, falls under the Residential (R-Zone) as per the Development Control and Promotion Regulation-2034 (DCPR-2034). For this specific configuration (Island City, Residential/Commercial Zone, 18.00m & above but less than 27m road width), the maximum permissible Floor Space Index (FSI) is 2.70. This total FSI is composed of a Zonal (Basic) FSI of 1.33, an additional FSI of 0.73 available upon payment of premium, and an admissible Transferable Development Rights (TDR) FSI of 0.64. This cumulative FSI is within the overall cap of 3.00 for plots up to 2000 sq. m. The premium for additional FSI is generally recovered at 50% of the Annual Statement of Rates (ASR) for the additional Built-Up Area (BUA).\n\n**Citations:**\n*   **Floor Space Indices in Residential, Commercial and Industrial Zones:** Page 83, TABLE 12 (Sr No I, row for \"18.00m & above but less than 27m\").\n*   **Premium FSI Calculation (general principle):** Page 177, condition (a) under 'The grant of additional FSI as stated above shall be subject to following conditions.'\n*   **Overall FSI Cap (for plot size):** Page 182, Section VII, 'Maximum permissible FSI' table (row for 'Up to 2000 sq. m').\n\n#### **2. Entitlements & Calculations**\nUsing the Net Plot Area of 1991.0 sq. m., the specific entitlements and corresponding Built-Up Area (BUA) are calculated as follows:\n\n| Entitlement Type          | FSI Value | Permissible BUA (sq. m.) |\n| :------------------------ | :-------- | :----------------------- |\n| **Base FSI**              | 1.33      | 2648.03                  |\n| **Premium FSI**           | 0.73      | 1453.43                  |\n| **TDR FSI**               | 0.64      | 1274.24                  |\n| **Total Permissible FSI** | **2.70**  | **5375.70**              |\n| **Permissible Height**    | Not specified | N/A                      |\n\n**Financial Estimation (System Calculated):**\n*   **Inferred Premium FSI:** 0.3\n*   **Premium FSI Area:** 597.30 sq.m\n*   **Estimated Cost:** \u20b95,973,000.00 (Estimated at 50% of ASR per sq.m)\n\n#### **3. Key Missing Information**\nWhile the FSI entitlements can be determined from the provided context, several crucial pieces of information are not explicitly available, which are vital for a complete development plan:\n*   **Maximum Permissible Building Height:** The context does not specify height restrictions for residential buildings in the R-Zone of Island City, especially concerning the 20.0 m road width or the proposed 30.0 m height.\n*   **Specific Setback and Open Space Requirements:** Detailed regulations for front, side, and rear setbacks, as well as mandatory open areas, are essential for architectural design and site planning but are not provided.\n*   **Parking Standards:** Specific parking requirements for residential buildings (e.g., number of parking spaces per dwelling unit or per BUA) are absent.\n*   **Detailed Breakdown of Deductions:** The precise nature and regulatory basis for the 9.0 sq. m. deductions from the gross plot area are not explained.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\nDespite the potential to achieve a higher total FSI of 2.70 given the 20.0 m road width, a strategy focusing on Low Density Residential (utilizing closer to the Basic FSI of 1.33) is recommended. This approach aligns with several strategic benefits:\n*   **Cost Efficiency:** By primarily utilizing the Basic FSI, the project can significantly reduce or eliminate the substantial costs associated with purchasing TDR and paying premiums for additional FSI, streamlining the financial structure.\n*   **Premium Market Positioning:** Low-density developments often cater to a niche market segment seeking luxury, spacious living environments, and greater privacy, potentially leading to higher per-unit sale prices and strong market demand for premium offerings.\n*   **Expedited Approvals:** Projects that adhere closer to fundamental zoning entitlements may face fewer complexities and potentially faster approval processes compared to those maximizing every permissible FSI component, which can involve more scrutiny.\n*   **Enhanced Livability and Amenities:** A lower density allows for more generous open spaces, landscaping, and dedicated amenity areas within the development, enhancing the quality of life for residents and contributing to long-term property value.\n\n#### **5. Next Steps**\nBased on this analysis, the following actionable next steps are recommended for the user:\n1.  **Confirm Height Restrictions:** Immediately verify the specific maximum permissible building height for residential developments in the Island City R-Zone with a 20.0 m road width to confirm the feasibility of the proposed 30.0 m height.\n2.  **Obtain Detailed Site Development Regulations:** Acquire the complete set of Development Control Regulations pertaining to setbacks, ground coverage, and mandatory open spaces specific to the R-Zone to inform the architectural design.\n3.  **Ascertain Parking Requirements:** Research and confirm the precise parking standards applicable to the proposed residential building type and scale.\n4.  **Clarify Deductions:** Seek clarification on the nature and regulatory implications of the 9.0 sq. m. deductions to ensure accurate calculations and compliance.\n5.  **Conduct Market Analysis for Low Density:** Perform a detailed market study to assess demand, pricing, and competitive landscape for low-density residential properties in the specific location to validate the recommended strategy.\n6.  **Pre-Application Consultation with Planning Authority:** Schedule a pre-application meeting with the Municipal Corporation of Greater Mumbai (MCGM) planning authority to discuss the proposed low-density development, clarify any regulatory ambiguities, and obtain preliminary feedback.\n---\n**Disclaimer:** This report is an automated analysis based on the provided text and parameters. It serves as a preliminary guide and does not constitute legal advice or a final planning approval. All information should be independently verified with the relevant municipal authorities and professional consultants before making any development decisions.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2190.1,
+            "estimated_profit": 54752500.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 5973.0,
+            "estimated_profit": 111496000.0
+        },
+        "value_add": 56743500.0,
+        "roi_increase_percent": 103.6
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1766272045529_geometry.stl",
+    "calculated_geometry": {
+        "width": 20.291111903279056,
+        "depth": 29.436533731967437,
+        "height": 30.0
+    },
+    "logs": "/logs/case_1766272045529"
+}

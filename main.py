@@ -1,8 +1,9 @@
 import json
 import os
 import uvicorn
-from fastapi import FastAPI, HTTPException, Response
-from fastapi.responses import FileResponse
+from fastapi import FastAPI, HTTPException, Response, Request
+from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
@@ -72,14 +73,93 @@ class SystemState:
 
 state = SystemState()
 
-# --- 5. Server Startup & Shutdown Events ---
-@app.on_event("startup")
-def startup_event():
-    """This function runs ONCE when the server starts up to initialize the MCP client and models."""
-    logger.info("Server starting up... Initializing MCP Client and AI models.")
-    from langchain_google_genai import ChatGoogleGenerativeAI
-    from stable_baselines3 import PPO
+# --- 5. WebSocket & Logging Infrastructure (Real-Time Updates) ---
+from fastapi import WebSocket, WebSocketDisconnect
+import logging
+import asyncio
 
+class ConnectionManager:
+    """Manages active WebSocket connections for log broadcasting."""
+    def __init__(self):
+        self.active_connections: List[WebSocket] = []
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+        logger.info(f"WebSocket connected. Total: {len(self.active_connections)}")
+
+    def disconnect(self, websocket: WebSocket):
+        self.active_connections.remove(websocket)
+        logger.info(f"WebSocket disconnected. Total: {len(self.active_connections)}")
+
+    async def broadcast(self, message: str):
+        """Sends a message to all connected clients."""
+        for connection in self.active_connections:
+            try:
+                await connection.send_text(message)
+            except Exception as e:
+                logger.error(f"Failed to send to WS: {e}")
+
+manager = ConnectionManager()
+
+# Global variable to hold the main event loop
+main_loop = None
+
+class WebSocketLogHandler(logging.Handler):
+    """Intercepts standard logs and pushes them to the WebSocket manager."""
+    def emit(self, record):
+        try:
+            # Filter out noise (boring logs)
+            msg = record.getMessage()
+            if "Received /" in msg or "Input Parameters" in msg:
+                 return
+            
+            # Use explicit type if provided in extra={'type': '...'}
+            msg_type = getattr(record, 'type', None)
+            
+            # Fallback heuristics
+            if not msg_type:
+                if "MCP" in msg or "VectorDB" in msg or "Rules" in msg: msg_type = 'rag'
+                elif "LLM" in msg or "AI Consultant" in msg: msg_type = 'llm'
+                elif "RL" in msg or "Policy" in msg: msg_type = 'rl'
+                elif "Complete" in msg or "Success" in msg: msg_type = 'success'
+                else: msg_type = 'info'
+            
+            payload = json.dumps({
+                "type": msg_type,
+                "text": msg,
+                "timestamp": datetime.utcnow().isoformat()
+            })
+            
+            # Broadcast asynchronously
+            if main_loop and main_loop.is_running():
+                asyncio.run_coroutine_threadsafe(manager.broadcast(payload), main_loop)
+            else:
+                 # Fallback for debugging if loop isn't ready
+                 pass 
+
+        except Exception:
+            self.handleError(record)
+
+# --- 6. Server Startup & Shutdown Events ---
+@app.on_event("startup")
+async def startup_event():
+    """This function runs ONCE when the server starts up to initialize components."""
+    logger.info("Server starting up...")
+    
+    # 0. Capture Main Loop for Thread-Safe Logging
+    global main_loop
+    main_loop = asyncio.get_running_loop()
+    
+    # 1. Attach WebSocket Handler to Our Specific Logger
+    # We must attach to 'logger' because propagate=False in logging_config.py
+    ws_handler = WebSocketLogHandler()
+    ws_handler.setFormatter(logging.Formatter('%(message)s'))
+    logger.addHandler(ws_handler)
+    
+    # 2. Init AI Models
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    
     load_dotenv()
     os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
 
@@ -90,7 +170,6 @@ def startup_event():
             logger.warning("GEMINI_API_KEY not found in .env. AI features will be disabled.")
             state.llm = None
         else:
-            # Use gemini-2.5-flash for better free-tier performance and higher rate limits
             state.llm = ChatGoogleGenerativeAI(
                 model="gemini-2.5-flash",
                 google_api_key=os.getenv("GEMINI_API_KEY"),
@@ -109,15 +188,23 @@ def startup_event():
         state.rl_agent = None
     
     state.is_initialized = True
-    logger.info("All components and MCP Client initialized successfully. Server is ready.")
+    logger.info("All components and Real-Time Logging initialized.")
 
 @app.on_event("shutdown")
 def shutdown_event():
-    """This function runs ONCE when the server shuts down to close connections."""
     if state.mcp_client:
         state.mcp_client.close()
 
-# --- 6. API Endpoints ---
+# --- 7. API Endpoints ---
+@app.websocket("/ws/logs")
+async def websocket_endpoint(websocket: WebSocket):
+    await manager.connect(websocket)
+    try:
+        while True:
+            # We just hold the connection open; messages are pushed by the LogHandler
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
 @app.post("/run_case", summary="Run the full compliance pipeline for a single case")
 def run_case_endpoint(case_input: CaseInput):
     logger.info(f"Received /run_case request for case {case_input.case_id}")
@@ -229,6 +316,23 @@ def get_project_cases(project_id: str) -> List[Dict[str, Any]]:
         logger.error(f"Error reading reports for project {project_id}: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Error reading project reports.")
     return project_reports
+
+# --- 9. Serve React Frontend (Static Files) ---
+# Check if static directory exists (it will in Docker)
+if os.path.exists("./static"):
+    app.mount("/assets", StaticFiles(directory="./static/assets"), name="assets")
+    # We might need to mount other root-level files like favicon.ico if they exist
+    # SPA Fallback: catching any other route and serving index.html
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        # Check if file exists in static folder corresponding to path (e.g. favicon.ico)
+        static_file = os.path.join("static", full_path)
+        if os.path.exists(static_file) and os.path.isfile(static_file):
+            return FileResponse(static_file)
+        # Otherwise serve index.html
+        return FileResponse("static/index.html")
+else:
+    logger.warning("Static directory not found. Frontend will not be served.")
 # --- 8. Main execution block for running the server ---
 if __name__ == "__main__":
     print("--- Starting MCP-Integrated API Server with Uvicorn ---")

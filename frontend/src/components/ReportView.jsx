@@ -4,10 +4,13 @@ import remarkMath from 'remark-math';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css';
-import { FileText, CheckCircle2, AlertTriangle, Download, Activity } from 'lucide-react';
+import { FileText, CheckCircle2, AlertTriangle, Download, Activity, Globe, Box } from 'lucide-react';
 import Building3D from './Building3D';
+import CesiumView from './CesiumView';
 
 const ReportView = ({ data, isLoading }) => {
+    const [viewMode, setViewMode] = React.useState('model'); // 'model' or 'map'
+
     if (isLoading) {
         return (
             <div className="flex-1 flex flex-col items-center justify-center p-12 text-gray-500 animate-pulse h-screen">
@@ -16,7 +19,7 @@ const ReportView = ({ data, isLoading }) => {
                     <div className="absolute inset-0 border-4 border-t-indigo-500 rounded-full animate-spin"></div>
                 </div>
                 <p className="text-xl font-medium text-indigo-300">Analyzing Regulations...</p>
-                <p className="text-sm text-gray-400 mt-2">Consulting GPT-4 & ChromaDB Neural Engine</p>
+                <p className="text-sm text-gray-400 mt-2">Consulting Gemini & ChromaDB Neural Engine</p>
             </div>
         );
     }
@@ -67,6 +70,8 @@ const ReportView = ({ data, isLoading }) => {
                         </div>
                     )}
                 </div>
+
+
 
                 {/* --- COMPARATIVE VALUE DASHBOARD (HACKATHON WOW FEATURE) --- */}
                 {data.comparative_analysis && (
@@ -154,23 +159,51 @@ const ReportView = ({ data, isLoading }) => {
                 <div className="pt-12 border-t border-white/5">
                     <div className="flex justify-between items-end mb-8">
                         <h2 className="text-xl font-light text-white tracking-[0.2em] uppercase">Spatial Visualization</h2>
-                        {data.geometry_file && (
-                            <a href={`http://localhost:8000${data.geometry_file}`} download className="text-[10px] uppercase tracking-widest text-gray-500 hover:text-white transition-colors cursor-pointer border border-white/10 px-4 py-2 hover:bg-white/5">
-                                Download Geometry
-                            </a>
-                        )}
+                        <div className="flex gap-4">
+                            <div className="flex bg-white/5 border border-white/10 rounded-lg p-1">
+                                <button
+                                    onClick={() => setViewMode('model')}
+                                    className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-[10px] uppercase tracking-widest transition-all ${viewMode === 'model' ? 'bg-indigo-500 text-white shadow-lg' : 'text-gray-500 hover:text-white'}`}
+                                >
+                                    <Box size={14} />
+                                    <span>Model</span>
+                                </button>
+                                <button
+                                    onClick={() => setViewMode('map')}
+                                    className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-[10px] uppercase tracking-widest transition-all ${viewMode === 'map' ? 'bg-indigo-500 text-white shadow-lg' : 'text-gray-500 hover:text-white'}`}
+                                >
+                                    <Globe size={14} />
+                                    <span>Context</span>
+                                </button>
+                            </div>
+
+                            {data.geometry_file && (
+                                <a href={`http://localhost:8000${data.geometry_file}`} download className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-gray-500 hover:text-white transition-colors cursor-pointer border border-white/10 px-4 py-2 hover:bg-white/5 rounded-lg">
+                                    <Download size={14} />
+                                    <span>Geometry</span>
+                                </a>
+                            )}
+                        </div>
                     </div>
 
                     <div className="w-full h-[600px] border border-white/5 bg-[#050505] relative overflow-hidden group">
                         <div className="absolute top-0 right-0 p-4 z-10 text-right opacity-50 group-hover:opacity-100 transition-opacity">
                             <p className="font-mono text-[10px] text-white/50 tracking-widest">INTERACTIVE PREVIEW</p>
                         </div>
-                        <Building3D
-                            key={`${data.calculated_geometry?.width || 0}-${data.calculated_geometry?.height || 0}-${data.calculated_geometry?.depth || 0}`}
-                            width={data.calculated_geometry?.width || 20}
-                            depth={data.calculated_geometry?.depth || 20}
-                            height={data.calculated_geometry?.height || 50}
-                        />
+                        {viewMode === 'model' ? (
+                            <Building3D
+                                key={`${data.calculated_geometry?.width || 0}-${data.calculated_geometry?.height || 0}-${data.calculated_geometry?.depth || 0}`}
+                                width={data.calculated_geometry?.width || 20}
+                                depth={data.calculated_geometry?.depth || 20}
+                                height={data.calculated_geometry?.height || 50}
+                            />
+                        ) : (
+                            <CesiumView
+                                width={data.calculated_geometry?.width || 20}
+                                depth={data.calculated_geometry?.depth || 20}
+                                height={data.calculated_geometry?.height || 50}
+                            />
+                        )}
                     </div>
                 </div>
 

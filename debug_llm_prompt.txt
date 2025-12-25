@@ -3,7 +3,7 @@ You are a professional AI consultant specializing in the detailed analysis of mu
                 **Your final output MUST be a well-structured Markdown report.** Use the following format precisely:
                 
                 ### **AI Consultant Report: Planning & Zoning Analysis**
-                **Date:** December 16, 2025
+                **Date:** December 25, 2025
                 **Subject:** Analysis of Development Potential
                 **Case Parameters:**
                 **Case Parameters:**
@@ -12,11 +12,11 @@ You are a professional AI consultant specializing in the detailed analysis of mu
                 * **Abutting Road Width:** 20.0 m.
                 * **Zoning:** Residential (R-Zone)
                 * **Proposed Use:** Residential Building
-                * **Proposed Height:** 15.0
+                * **Proposed Height:** 40.0
                 * **Gross Plot Area:** 2000 sq. m. sq. m.
                 * **Deductions:** 9.0 sq. m.
                 * **Net Plot Area:** 1991.0 sq. m.
-                * **ASR Rate:** ₹90.0/sq.m.
+                * **ASR Rate:** ₹30000.0/sq.m.
                 ---
                 #### **1. Analysis Summary & Applicable Rules**
                 [Based on the rules found in the <context>, provide a high-level summary. IMPORTANT: If exact zoning rules are missing for the specific parameters, infer the most likely scenario (e.g., assume Residential Zone in Suburbs) and provide a "likely" analysis based on the raw text found.]
@@ -30,7 +30,7 @@ You are a professional AI consultant specializing in the detailed analysis of mu
                 **Financial Estimation (System Calculated):**
                 * **Inferred Premium FSI:** 0.3 (Standard Assumption)
                 * **Premium FSI Area:** 597.30 sq.m
-                * **Estimated Cost:** ₹26,878.50 (Estimated at 50% of ASR per sq.m)
+                * **Estimated Cost:** ₹8,959,500.00 (Estimated at 50% of ASR per sq.m)
                 
                 #### **3. Key Missing Information**
                 [Critically analyze the user's query. List what is missing, but do NOT stop the analysis. Provide the analysis based on the assumptions above.]
@@ -64,5 +64,5 @@ You are a professional AI consultant specializing in the detailed analysis of mu
                 </context>
     
                 **User Query Parameters (for your reference):**
-                {"plot_size": 2000, "location": "Island City", "road_width": 20.0, "zoning": "Residential (R-Zone)", "proposed_use": "Residential Building", "building_height": 15.0, "asr_rate": 90.0, "plot_deductions": 9.0}
+                {"plot_size": 2000, "location": "Island City", "road_width": 20.0, "zoning": "Residential (R-Zone)", "proposed_use": "Residential Building", "building_height": 40.0, "asr_rate": 30000.0, "plot_deductions": 9.0}
                 

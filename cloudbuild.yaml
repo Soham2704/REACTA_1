@@ -1,0 +1,7 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/gdg-115/veritas-compliance-system', '.']
+# Push the image to Container Registry
+images:
+  - 'gcr.io/gdg-115/veritas-compliance-system'

@@ -30,7 +30,7 @@ const FeedbackWidget = ({ reportData }) => {
         return (
             <motion.div
                 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                className="fixed bottom-8 right-8 glass-panel p-4 rounded-xl flex items-center gap-3 text-dark-success border-dark-success/20"
+                className="fixed bottom-8 right-8 z-50 glass-panel p-4 rounded-xl flex items-center gap-3 text-dark-success border-dark-success/20 shadow-2xl"
             >
                 <ThumbsUp size={20} fill="currentColor" />
                 <span className="font-medium">Feedback Recorded. Training RL Model...</span>
@@ -41,7 +41,7 @@ const FeedbackWidget = ({ reportData }) => {
     return (
         <motion.div
             initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-            className="fixed bottom-8 right-8 glass-panel p-2 rounded-xl flex items-center gap-2"
+            className="fixed bottom-8 right-8 z-50 glass-panel p-2 rounded-xl flex items-center gap-2 shadow-2xl"
         >
             <span className="text-xs font-bold uppercase text-gray-500 px-2">Was this helpful?</span>
             <button

@@ -44,7 +44,7 @@ const Sidebar = ({ onRun, isRunning }) => {
 
     const handleRun = () => {
         const payload = {
-            project_id: "react_web_prj_01",
+            project_id: "VERITAS-1",
             case_id: `case_${Date.now()}`,
             city: params.city,
             document: "io/DCPR_2034.pdf",
@@ -69,13 +69,13 @@ const Sidebar = ({ onRun, isRunning }) => {
             <div className="space-y-6 flex-1 overflow-y-auto px-6 py-4 custom-scrollbar">
                 {/* Section: Basic Params */}
                 <div className="space-y-4">
-                    <h2 className="text-[11px] uppercase text-purple-300/50 font-bold tracking-widest mb-4">Site Parameters</h2>
+                    <h2 className="text-sm uppercase text-purple-300/80 font-bold tracking-widest mb-4">Site Parameters</h2>
 
                     <div className="space-y-1.5">
-                        <label className="text-xs text-gray-400 font-medium ml-1">City Context</label>
+                        <label className="text-sm text-gray-300 font-medium ml-1">City Context</label>
                         <div className="relative">
                             <MapPin size={14} className="absolute left-3 top-3.5 text-gray-500" />
-                            <select name="city" value={params.city} onChange={handleChange} className="glass-input w-full pl-9 appearance-none cursor-pointer hover:bg-white/10 transition-colors">
+                            <select name="city" value={params.city} onChange={handleChange} className="glass-input w-full pl-9 py-2.5 text-sm appearance-none cursor-pointer hover:bg-white/10 transition-colors">
                                 <option className="bg-[#1a103c]">Mumbai</option>
                                 <option className="bg-[#1a103c]">Pune</option>
                                 <option className="bg-[#1a103c]">Nashik</option>
@@ -86,20 +86,20 @@ const Sidebar = ({ onRun, isRunning }) => {
 
                     <div className="grid grid-cols-2 gap-3">
                         <div className="space-y-1.5">
-                            <label className="text-xs text-gray-400 font-medium ml-1">Plot Area (m²)</label>
-                            <input type="number" name="plot_size" value={params.plot_size} onChange={handleChange} className="glass-input w-full" />
+                            <label className="text-sm text-gray-300 font-medium ml-1">Plot Area (m²)</label>
+                            <input type="number" name="plot_size" value={params.plot_size} onChange={handleChange} className="glass-input w-full py-2.5 text-sm" />
                         </div>
                         <div className="space-y-1.5">
-                            <label className="text-xs text-gray-400 font-medium ml-1">Road Width</label>
-                            <input type="number" name="road_width" value={params.road_width} onChange={handleChange} className="glass-input w-full" />
+                            <label className="text-sm text-gray-300 font-medium ml-1">Road Width</label>
+                            <input type="number" name="road_width" value={params.road_width} onChange={handleChange} className="glass-input w-full py-2.5 text-sm" />
                         </div>
                     </div>
 
                     <div className="space-y-1.5">
-                        <label className="text-xs text-gray-400 font-medium ml-1">Zone Location</label>
+                        <label className="text-sm text-gray-300 font-medium ml-1">Zone Location</label>
                         <div className="relative">
-                            <Activity size={14} className="absolute left-3 top-3 text-gray-500" />
-                            <select name="location" value={params.location} onChange={handleChange} className="glass-input w-full pl-9 appearance-none hover:bg-white/10 transition-colors">
+                            <Activity size={14} className="absolute left-3 top-3.5 text-gray-500" />
+                            <select name="location" value={params.location} onChange={handleChange} className="glass-input w-full pl-9 py-2.5 text-sm appearance-none hover:bg-white/10 transition-colors">
                                 {CITY_LOCATIONS[params.city]?.map(loc => (
                                     <option key={loc} value={loc} className="bg-[#1a103c]">{loc}</option>
                                 ))}
@@ -110,11 +110,11 @@ const Sidebar = ({ onRun, isRunning }) => {
 
                 {/* Section: Detailed Params */}
                 <div className="space-y-4 pt-4 border-t border-white/5">
-                    <h2 className="text-[11px] uppercase text-purple-300/50 font-bold tracking-widest mb-4">Project Specs</h2>
+                    <h2 className="text-sm uppercase text-purple-300/80 font-bold tracking-widest mb-4">Project Specs</h2>
 
                     <div className="space-y-1.5">
-                        <label className="text-xs text-gray-400 font-medium ml-1">Zoning Type</label>
-                        <select name="zoning" value={params.zoning} onChange={handleChange} className="glass-input w-full bg-transparent hover:bg-white/10 transition-colors">
+                        <label className="text-sm text-gray-300 font-medium ml-1">Zoning Type</label>
+                        <select name="zoning" value={params.zoning} onChange={handleChange} className="glass-input w-full py-2.5 text-sm bg-transparent hover:bg-white/10 transition-colors">
                             <option className="bg-[#1a103c]">Residential (R-Zone)</option>
                             <option className="bg-[#1a103c]">Commercial (C-Zone)</option>
                             <option className="bg-[#1a103c]">Industrial (I-Zone)</option>
@@ -122,8 +122,8 @@ const Sidebar = ({ onRun, isRunning }) => {
                     </div>
 
                     <div className="space-y-1.5">
-                        <label className="text-xs text-gray-400 font-medium ml-1">Proposed Use</label>
-                        <select name="proposed_use" value={params.proposed_use} onChange={handleChange} className="glass-input w-full bg-transparent hover:bg-white/10 transition-colors">
+                        <label className="text-sm text-gray-300 font-medium ml-1">Proposed Use</label>
+                        <select name="proposed_use" value={params.proposed_use} onChange={handleChange} className="glass-input w-full py-2.5 text-sm bg-transparent hover:bg-white/10 transition-colors">
                             <option className="bg-[#1a103c]">Residential Building</option>
                             <option className="bg-[#1a103c]">Commercial Office</option>
                             <option className="bg-[#1a103c]">IT Park</option>
@@ -132,8 +132,8 @@ const Sidebar = ({ onRun, isRunning }) => {
                     </div>
 
                     <div className="space-y-1.5">
-                        <label className="text-xs text-gray-400 font-medium ml-1 flex items-center gap-1.5"><Building2 size={12} /> Building Height (m)</label>
-                        <input type="number" name="building_height" value={params.building_height} onChange={handleChange} className="glass-input w-full" />
+                        <label className="text-sm text-gray-300 font-medium ml-1 flex items-center gap-1.5"><Building2 size={14} /> Building Height (m)</label>
+                        <input type="number" name="building_height" value={params.building_height} onChange={handleChange} className="glass-input w-full py-2.5 text-sm" />
                     </div>
                 </div>
 
@@ -142,14 +142,14 @@ const Sidebar = ({ onRun, isRunning }) => {
                     <button className="flex items-center gap-2 text-xs text-purple-400 hover:text-purple-300 transition-colors">
                         <Settings size={12} /> Advanced Configuration
                     </button>
-                    <div className="grid grid-cols-2 gap-2 text-white/50">
+                    <div className="space-y-3 text-white/50">
                         <div className="space-y-1">
-                            <label className="text-[10px] ml-1">ASR Rate</label>
-                            <input type="number" name="asr_rate" value={params.asr_rate} onChange={handleChange} className="glass-input w-full py-2 text-xs" placeholder="0" />
+                            <label className="text-xs ml-1 uppercase tracking-wider font-bold text-gray-400">ASR Rate</label>
+                            <input type="number" name="asr_rate" value={params.asr_rate} onChange={handleChange} className="glass-input w-full py-2.5 px-3 text-sm" placeholder="0" />
                         </div>
                         <div className="space-y-1">
-                            <label className="text-[10px] ml-1">Deductions</label>
-                            <input type="number" name="plot_deductions" value={params.plot_deductions} onChange={handleChange} className="glass-input w-full py-2 text-xs" placeholder="0" />
+                            <label className="text-xs ml-1 uppercase tracking-wider font-bold text-gray-400">Deductions</label>
+                            <input type="number" name="plot_deductions" value={params.plot_deductions} onChange={handleChange} className="glass-input w-full py-2.5 px-3 text-sm" placeholder="0" />
                         </div>
                     </div>
                 </div>

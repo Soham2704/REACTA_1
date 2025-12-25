@@ -2454,3 +2454,348 @@
 {"timestamp": "2025-12-14T16:50:23.832857Z", "level": "INFO", "message": "Case case_1765730997444 processed successfully.", "source": "MultiAgentSystem"}
 {"timestamp": "2025-12-16T11:25:53.982129Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
 {"timestamp": "2025-12-16T11:26:20.929711Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:40:52.113609Z", "level": "INFO", "message": "Server starting up... Initializing MCP Client and AI models.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:41:15.279047Z", "level": "INFO", "message": "All components and MCP Client initialized successfully. Server is ready.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:21.815670Z", "level": "INFO", "message": "Received /run_case request for case case_1766270541780", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:21.815670Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 32.0, 'asr_rate': 20000.0, 'plot_deductions': 19.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:21.815670Z", "level": "INFO", "message": "Processing case case_1766270541780 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:21.815670Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766270541780...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:30.696383Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766270541780...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:30.704281Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:50.164283Z", "level": "INFO", "message": "LLM expert report complete for case_1766270541780.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:50.164283Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:50.164283Z", "level": "INFO", "message": "User requested height 32.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:50.188792Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766270541780_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:42:50.188792Z", "level": "INFO", "message": "Case case_1766270541780 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:45:58.399926Z", "level": "INFO", "message": "Received /run_case request for case case_1766270758379", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:45:58.401443Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:45:58.401443Z", "level": "INFO", "message": "Processing case case_1766270758379 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:45:58.401443Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766270758379...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:03.283814Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766270758379...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:03.283814Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:25.599144Z", "level": "INFO", "message": "LLM expert report complete for case_1766270758379.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:25.599659Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:25.620741Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766270758379_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:25.621256Z", "level": "INFO", "message": "Case case_1766270758379 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:36.688793Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1766270758379", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:46:41.190827Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1766270758379", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:10.898033Z", "level": "INFO", "message": "Received /run_case request for case case_1766271430881", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:10.900039Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:10.900039Z", "level": "INFO", "message": "Processing case case_1766271430881 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:10.900039Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766271430881...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:16.008132Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766271430881...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:16.009822Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:35.432716Z", "level": "INFO", "message": "LLM expert report complete for case_1766271430881.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:35.432716Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:35.460792Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766271430881_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T22:57:35.460792Z", "level": "INFO", "message": "Case case_1766271430881 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:32.850142Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:40.454300Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:40.458921Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:53.995797Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:54.549417Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:58.595718Z", "level": "INFO", "message": "Received /run_case request for case case_1766271778566", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:58.595718Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:58.595718Z", "level": "INFO", "message": "Processing case case_1766271778566 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:02:58.595718Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766271778566...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:03.999282Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766271778566...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:04.006511Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:30.565136Z", "level": "INFO", "message": "LLM expert report complete for case_1766271778566.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:30.565136Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:30.585981Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766271778566_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:03:30.585981Z", "level": "INFO", "message": "Case case_1766271778566 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:04:32.027901Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:04:41.784544Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:04:48.170714Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:04:57.833695Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:01.686138Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:04.491250Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:14.701145Z", "level": "INFO", "message": "Received /run_case request for case case_1766271914647", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:14.701145Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 19999.0, 'plot_deductions': 8.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:14.703153Z", "level": "INFO", "message": "Processing case case_1766271914647 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:14.703153Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766271914647...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:20.440581Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766271914647...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:20.447627Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:44.801606Z", "level": "INFO", "message": "LLM expert report complete for case_1766271914647.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:44.801606Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:44.822812Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766271914647_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:05:44.822812Z", "level": "INFO", "message": "Case case_1766271914647 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:31.583871Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:44.489081Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:44.571679Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:52.860970Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:52.917905Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:06:58.270827Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:06.918869Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:07.336886Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:25.658692Z", "level": "INFO", "message": "Received /run_case request for case case_1766272045529", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:25.658692Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 30.0, 'asr_rate': 20000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:25.658692Z", "level": "INFO", "message": "Processing case case_1766272045529 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:25.658692Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766272045529...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:32.560989Z", "level": "INFO", "message": "Executing LLM agent to generate expert report for case_1766272045529...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:32.563526Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:59.473281Z", "level": "INFO", "message": "LLM expert report complete for case_1766272045529.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:59.474409Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:59.475833Z", "level": "INFO", "message": "User requested height 30.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:59.507530Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766272045529_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:07:59.509291Z", "level": "INFO", "message": "Case case_1766272045529 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:30.179888Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:42.092272Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:42.219816Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:42.907156Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:53.510952Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:53.615391Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:09:53.928051Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:00.514488Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:01.145412Z", "level": "INFO", "message": "Received /run_case request for case case_1766272201115", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:01.145412Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:01.145412Z", "level": "INFO", "message": "Processing case case_1766272201115 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:01.145412Z", "level": "INFO", "message": "Querying MCP for rules for case case_1766272201115...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:04.420775Z", "level": "INFO", "message": "MCP Retrieved 10 Relevant Regulation Chunks.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:04.421121Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:04.424134Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:04.424134Z", "level": "INFO", "message": "Executing LLM agent to generate expert report...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:04.427361Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:30.904914Z", "level": "INFO", "message": "LLM expert report complete for case_1766272201115.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:30.906420Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:30.927216Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766272201115_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:10:30.927216Z", "level": "INFO", "message": "Case case_1766272201115 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:11:43.534491Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:11:59.073273Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:11:59.116088Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:11:59.439174Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:11.478051Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:11.692004Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.191348Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.254858Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.345196Z", "level": "INFO", "message": "Received /run_case request for case case_1766272327278", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.345196Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.345196Z", "level": "INFO", "message": "Processing case case_1766272327278 for project react_web_prj_01.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:12.345196Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.044794Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.053890Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.053890Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.053890Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.068912Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.070112Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:20.079293Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:48.316002Z", "level": "INFO", "message": "LLM expert report complete for case_1766272327278.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:48.316002Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:48.323840Z", "level": "INFO", "message": "Geometry saved to outputs/projects/react_web_prj_01\\case_1766272327278_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-20T23:12:48.323840Z", "level": "INFO", "message": "Case case_1766272327278 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:01.555803Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:11.736654Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:21.765777Z", "level": "INFO", "message": "Received /run_case request for case case_1766284461726", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:21.765777Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:21.765777Z", "level": "INFO", "message": "Processing case case_1766284461726 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:21.765777Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.040961Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.044602Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.044602Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.044602Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.051818Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.055018Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:24.059892Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:45.064264Z", "level": "INFO", "message": "LLM expert report complete for case_1766284461726.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:45.068407Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:45.095252Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766284461726_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:45.097265Z", "level": "INFO", "message": "Case case_1766284461726 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:34:55.917882Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:04.255108Z", "level": "INFO", "message": "Received /run_case request for case case_1766284504218", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:04.255108Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:04.257697Z", "level": "INFO", "message": "Processing case case_1766284504218 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:04.260654Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.025039Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.025039Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.033399Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.033399Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.034090Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.039623Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:06.044642Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:28.963969Z", "level": "INFO", "message": "LLM expert report complete for case_1766284504218.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:28.964391Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:28.995462Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766284504218_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:35:28.995462Z", "level": "INFO", "message": "Case case_1766284504218 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:39:45.331433Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:40:02.250607Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:43:57.413736Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:47:11.787499Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:47:16.569376Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:47:48.996321Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:47:51.183524Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:50:45.360939Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:03.053143Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:23.369086Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:41.036722Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:43.024361Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:47.904955Z", "level": "INFO", "message": "Received /run_case request for case case_1766285687874", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:47.904955Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:47.904955Z", "level": "INFO", "message": "Processing case case_1766285687874 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:47.906659Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.159822Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.161493Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.163054Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.164351Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.164351Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.168406Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:50.173409Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:54:54.020816Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:55:11.763595Z", "level": "INFO", "message": "LLM expert report complete for case_1766285687874.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:55:11.765855Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:55:11.791658Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766285687874_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T02:55:11.791658Z", "level": "INFO", "message": "Case case_1766285687874 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:45.420819Z", "level": "INFO", "message": "Received /run_case request for case case_1766286405406", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:45.420819Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 40.0, 'asr_rate': 19998.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:45.420819Z", "level": "INFO", "message": "Processing case case_1766286405406 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:45.420819Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.636931Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.636931Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.638966Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.638966Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.646312Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.648323Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:06:47.649356Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:07:08.729691Z", "level": "INFO", "message": "LLM expert report complete for case_1766286405406.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:07:08.731458Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:07:08.731458Z", "level": "INFO", "message": "User requested height 40.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:07:08.759857Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766286405406_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:07:08.763710Z", "level": "INFO", "message": "Case case_1766286405406 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T03:21:33.400851Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:17:36.629842Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:22:46.598679Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:15.287686Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:15.554572Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:16.238658Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:16.305484Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:16.411670Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:16.449429Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:31.280773Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T04:23:31.280773Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:42:55.154096Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:42:58.680162Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:42:58.831170Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:42:58.833194Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:07.384648Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:18.345334Z", "level": "INFO", "message": "Received /run_case request for case case_1766295798288", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:18.345334Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 29.0, 'asr_rate': 40000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:18.345334Z", "level": "INFO", "message": "Processing case case_1766295798288 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:18.354495Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.676322Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.676322Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.676322Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.676322Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.740818Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.745053Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:20.745053Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:23.759101Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:40.064809Z", "level": "INFO", "message": "Received /run_case request for case case_1766295820037", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:40.064809Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 30.0, 'asr_rate': 40000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:40.064809Z", "level": "INFO", "message": "Processing case case_1766295820037 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:40.064809Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.697709Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.701729Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.701729Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.702743Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.725080Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.726593Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:43.728622Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:44.073248Z", "level": "INFO", "message": "LLM expert report complete for case_1766295798288.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:44.073248Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:44.073248Z", "level": "INFO", "message": "User requested height 29.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:44.080665Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766295798288_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:43:44.082679Z", "level": "INFO", "message": "Case case_1766295798288 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:44:08.206412Z", "level": "INFO", "message": "LLM expert report complete for case_1766295820037.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:44:08.206412Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:44:08.206412Z", "level": "INFO", "message": "User requested height 30.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:44:08.232472Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766295820037_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:44:08.233914Z", "level": "INFO", "message": "Case case_1766295820037 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:39.435812Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:42.056976Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:42.194076Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:42.194076Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:45.526310Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:54.946392Z", "level": "INFO", "message": "WebSocket connected. Total: 2", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:56.342378Z", "level": "INFO", "message": "Received /run_case request for case case_1766296076287", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:56.342378Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 15.0, 'asr_rate': 0.0, 'plot_deductions': 0.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:56.342378Z", "level": "INFO", "message": "Processing case case_1766296076287 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:47:56.342378Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.161479Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.161997Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.161997Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.161997Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.164196Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.165229Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:04.165990Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:30.994016Z", "level": "INFO", "message": "LLM expert report complete for case_1766296076287.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:31.005445Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:31.043642Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766296076287_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:48:31.045677Z", "level": "INFO", "message": "Case case_1766296076287 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:50:53.994071Z", "level": "INFO", "message": "WebSocket connected. Total: 3", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T05:50:59.777230Z", "level": "INFO", "message": "WebSocket disconnected. Total: 2", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:16:26.492415Z", "level": "INFO", "message": "WebSocket connected. Total: 3", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:03.875505Z", "level": "INFO", "message": "WebSocket disconnected. Total: 2", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:05.143728Z", "level": "INFO", "message": "WebSocket connected. Total: 3", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:24.856096Z", "level": "INFO", "message": "Received /run_case request for case case_1766297841337", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:24.856096Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 40.0, 'asr_rate': 40000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:24.856096Z", "level": "INFO", "message": "Processing case case_1766297841337 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:24.856096Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.623193Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.623193Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.623193Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.623193Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.623193Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.633222Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:33.671071Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:57.526337Z", "level": "INFO", "message": "LLM expert report complete for case_1766297841337.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:57.526337Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:57.526337Z", "level": "INFO", "message": "User requested height 40.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:57.569187Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766297841337_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T06:17:57.577121Z", "level": "INFO", "message": "Case case_1766297841337 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:16.032257Z", "level": "INFO", "message": "WebSocket disconnected. Total: 2", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:17.870100Z", "level": "INFO", "message": "WebSocket connected. Total: 3", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:51.927972Z", "level": "INFO", "message": "Received /run_case request for case case_1766302431898", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:51.928911Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 40.0, 'asr_rate': 40000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:51.929431Z", "level": "INFO", "message": "Processing case case_1766302431898 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:51.929431Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.342143Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.344216Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.346312Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.347222Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.354282Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.355383Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:33:54.361516Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:34:16.838369Z", "level": "INFO", "message": "LLM expert report complete for case_1766302431898.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:34:16.841806Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:34:16.842339Z", "level": "INFO", "message": "User requested height 40.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:34:16.853920Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766302431898_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T07:34:16.856235Z", "level": "INFO", "message": "Case case_1766302431898 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T08:22:02.041121Z", "level": "INFO", "message": "WebSocket disconnected. Total: 2", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T08:22:02.041121Z", "level": "ERROR", "message": "Failed to send to WS: ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T08:22:02.046436Z", "level": "ERROR", "message": "Failed to send to WS: ", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T08:22:02.046436Z", "level": "INFO", "message": "WebSocket disconnected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T08:39:28.448088Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T10:12:11.814246Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-21T10:12:20.738334Z", "level": "INFO", "message": "WebSocket disconnected. Total: 0", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:45:49.890394Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:45:58.259739Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:45:58.622202Z", "level": "WARNING", "message": "Static directory not found. Frontend will not be served.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:45:58.622984Z", "level": "INFO", "message": "Server starting up...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:46:09.845937Z", "level": "INFO", "message": "All components and Real-Time Logging initialized.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:48:05.872979Z", "level": "INFO", "message": "WebSocket connected. Total: 1", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:48.192099Z", "level": "INFO", "message": "Received /run_case request for case case_1766649048121", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:48.193989Z", "level": "INFO", "message": "Input Parameters: {'plot_size': 2000, 'location': 'Island City', 'road_width': 20.0, 'zoning': 'Residential (R-Zone)', 'proposed_use': 'Residential Building', 'building_height': 40.0, 'asr_rate': 30000.0, 'plot_deductions': 9.0}", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:48.193989Z", "level": "INFO", "message": "Processing case case_1766649048121 for project VERITAS-1.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:48.195593Z", "level": "INFO", "message": "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.651909Z", "level": "INFO", "message": "Found 10 Relevant Regulation Chunks (Score: 0.89).", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.652930Z", "level": "INFO", "message": "RL Agent 'Policy_Pro' Activated.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.653711Z", "level": "INFO", "message": "Observation State: [2000.0, 0.0, 20.0]", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.653711Z", "level": "INFO", "message": "Policy Network Evaluating 5 Development Strategies...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.715561Z", "level": "INFO", "message": ">>> OPTIMAL ACTION: LOW DENSITY Residential (Confidence 90%)", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.724740Z", "level": "INFO", "message": "LLM extracting specific constraints from Page 45, 87...", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:50:51.728467Z", "level": "INFO", "message": "Saved full LLM prompt to debug_llm_prompt.txt", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:51:12.932601Z", "level": "INFO", "message": "LLM expert report complete for case_1766649048121.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:51:12.935667Z", "level": "INFO", "message": "Extracted FSI 3.0 from text context for visualization.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:51:12.936723Z", "level": "INFO", "message": "User requested height 40.0m > standard 18.0m. Adjusting footprint.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:51:12.946299Z", "level": "INFO", "message": "Geometry saved to outputs/projects/VERITAS-1\\case_1766649048121_geometry.stl", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:51:12.946299Z", "level": "INFO", "message": "Case case_1766649048121 processed successfully.", "source": "MultiAgentSystem"}
+{"timestamp": "2025-12-25T07:52:52.398507Z", "level": "INFO", "message": "Feedback saved via MCP for case case_1766649048121", "source": "MultiAgentSystem"}

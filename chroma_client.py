@@ -10,7 +10,9 @@ class ChromaDBClient:
     Client for interacting with ChromaDB.
     replaces the SQL-based MCPClient for rule storage and retrieval.
     """
-    def __init__(self, persist_directory: str = "rules_chroma_db"):
+    def __init__(self, persist_directory: str = None):
+        if persist_directory is None:
+            persist_directory = os.getenv("CHROMADB_PERSIST_DIRECTORY", "rules_chroma_db")
         self.persist_directory = persist_directory
         # Ensure directory exists
         os.makedirs(persist_directory, exist_ok=True)

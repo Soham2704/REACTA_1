@@ -1,0 +1,45 @@
+{
+    "project_id": "react_web_prj_01",
+    "case_id": "case_1766272201115",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 15.0,
+        "asr_rate": 0.0,
+        "plot_deductions": 0.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 20, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 15.0\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 0.0 sq. m.\n*   **Net Plot Area:** 2000.0 sq. m.\n*   **ASR Rate:** \u20b90.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nThe proposed residential development on a 2000 sq. m. plot in the Island City, abutting a 20.0 m wide road within a Residential (R-Zone), is subject to the Floor Space Index (FSI) regulations for Island City. Based on the road width falling within the \"18.00m & above but less than 27m\" category, the plot is entitled to a Zonal (Basic) FSI, additional FSI on payment of premium, and admissible Transferable Development Rights (TDR). The maximum permissible FSI, combining all components, is 2.7. Additionally, certain areas like staircases, lift wells, and parking spaces may be exempted from FSI computation, potentially increasing the usable built-up area beyond the calculated FSI, subject to specific conditions and premium payments.\n\n**Citations:**\n*   `TABLE 12 Floor Space Indices in Residential, Commercial and Industrial Zones`, Page 83\n*   `31. Exempted from FSI/to be counted in FSI/ Fungible Compensatory Area`, Page 88\n\n#### **2. Entitlements & Calculations**\nBased on the Net Plot Area of 2000.0 sq. m. and the applicable FSI regulations for Island City with an abutting road width of 20.0 m:\n\n| FSI Component          | FSI Rate | Permissible Built-Up Area (BUA) |\n| :--------------------- | :------- | :------------------------------ |\n| **Zonal (Basic) FSI**  | 1.33     | 2660.0 sq. m.                   |\n| **Premium FSI**        | 0.73     | 1460.0 sq. m.                   |\n| **Admissible TDR**     | 0.64     | 1280.0 sq. m.                   |\n| **Total Permissible FSI** | **2.70** | **5400.0 sq. m.**               |\n| **Permissible Height** | N/A      | Not explicitly defined in provided context for residential use; subject to specific height regulations not found. |\n\n**Financial Estimation (System Calculated):**\n*   **Inferred Premium FSI:** 0.3 (Standard Assumption)\n*   **Premium FSI Area:** 600.00 sq.m\n*   **Estimated Cost:** N/A (ASR Rate missing)\n\n#### **3. Key Missing Information**\nWhile a comprehensive FSI analysis has been performed, the following critical information is not available in the provided context, necessitating further investigation for a complete development plan:\n*   **Specific Building Height Regulations:** The maximum permissible height for a residential building in this zone is not explicitly stated. The proposed height of 15.0m would need to be verified against specific height restrictions.\n*   **Annual Statement of Rates (ASR):** A current ASR rate is crucial for accurately calculating the premium payable for additional FSI and other charges. Without this, financial estimations are incomplete.\n*   **Detailed Development Control Regulations:** Information regarding specific setbacks, open space requirements, parking norms, and other ancillary regulations for residential buildings is not provided. These are vital for architectural design and overall project feasibility.\n*   **Sub-Zoning Details:** While \"Island City\" is specified, any further sub-zoning classifications within this area could potentially influence specific development parameters.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\n\n**Explanation:** The system's recommendation for a \"LOW DENSITY Residential (Basic FSI ~1.0)\" strategy, while seemingly conservative, suggests a focus on the fundamental development potential rather than maximizing all available FSI components. The rules clearly permit a significantly higher total FSI of 2.70 for a 2000 sq.m plot with a 20.0m road width in an Island City residential zone. This road width and prime location typically enable and often justify medium to high-density residential development, allowing for efficient land utilization and potentially greater economic returns. However, a low-density approach (utilizing primarily the Zonal/Basic FSI of 1.33 or even less as per the recommendation) could be strategically chosen to simplify regulatory approvals, reduce construction complexities and costs associated with premium FSI and TDR, enhance market appeal for luxury segments seeking more open spaces, or align with specific urban design goals not detailed in the regulations. It implies prioritizing qualitative aspects or ease of development over quantitative FSI maximization.\n\n#### **5. Next Steps**\n1.  **Verify Height Regulations:** Consult the full DCPR-2034 document or the Municipal Corporation of Greater Mumbai (MCGM) for specific maximum permissible building heights for residential structures in Island City, particularly for plots with a 20.0m road width.\n2.  **Obtain Current ASR Rates:** Secure the latest Annual Statement of Rates (ASR) from the relevant authority to accurately calculate premiums for additional FSI and other applicable charges.\n3.  **Detailed Architectural & Planning Review:** Engage an architect and urban planner to develop a preliminary design incorporating setbacks, open space requirements, parking provisions, and other site-specific regulations, considering both the permissible FSI and the strategic recommendation.\n4.  **Market Feasibility Study:** Conduct a market analysis to determine the optimal density and product type that aligns with demand in the Island City location, weighing the full FSI potential against the \"low density\" strategy.\n5.  **Pre-Application Consultation:** Schedule a pre-application meeting with the MCGM planning department to discuss the proposed development, clarify any ambiguities in regulations, and confirm the interpretation of FSI and other entitlements for the specific plot.\n---\n**Disclaimer:** This report is an automated analysis based on the provided text excerpts and user-defined parameters. It does not constitute legal advice or a substitute for professional planning consultation. All regulations, calculations, and interpretations should be verified with the relevant municipal authorities and qualified professionals before making any development decisions.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2200.0,
+            "estimated_profit": 55000000.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 6000.0,
+            "estimated_profit": 150000000.0
+        },
+        "value_add": 95000000.0,
+        "roi_increase_percent": 172.7
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/react_web_prj_01/case_1766272201115_geometry.stl",
+    "calculated_geometry": {
+        "width": 26.25365072188049,
+        "depth": 38.08994073218828,
+        "height": 18.0
+    },
+    "logs": "/logs/case_1766272201115"
+}

@@ -1,19 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Terminal, Cpu, Database, Brain, CheckCircle2 } from 'lucide-react';
 
-const generateLogs = (params) => [
-    { type: 'sys', text: "Initializing Veritas Multi-Agent Swarm...", delay: 500 },
-    { type: 'info', text: `Ingesting Plot Parameters: ${params?.plot_size || 0}sqm, Road ${params?.road_width || 0}m.`, delay: 1000 },
-    { type: 'rag', text: "Accessing VectorDB (Chroma)... Searching 'DCPR 2034 FSI Rules'...", delay: 1800 },
-    { type: 'rag', text: "Found 5 Relevant Regulation Chunks (Score: 0.89).", delay: 2800 },
-    { type: 'llm', text: "LLM extracting specific constraints from Page 45, 87...", delay: 3800 },
-    { type: 'rl', text: "RL Agent 'Policy_Pro' Activated.", delay: 4500 },
-    { type: 'rl', text: `Observation State: [${params?.plot_size}.0, 1.0, ${params?.road_width}.0]`, delay: 5000 },
-    { type: 'rl', text: "Policy Network Evaluating 5 Development Strategies...", delay: 6000 },
-    { type: 'rl', text: ">>> OPTIMAL ACTION: HIGH DENSITY (Confidence 90%)", delay: 7000 },
-    { type: 'sys', text: "Synthesizing Final Compliance Report...", delay: 8000 },
-    { type: 'success', text: "Pipeline Execution Complete. Generating 3D Geometry.", delay: 9000 },
-];
+const WEBSOCKET_URL = "ws://localhost:8000/ws/logs";
 
 const LiveAgentFeed = ({ isRunning, params }) => {
     const [logs, setLogs] = useState([]);
@@ -26,22 +14,42 @@ const LiveAgentFeed = ({ isRunning, params }) => {
         }
     }, [logs]);
 
+    const [status, setStatus] = useState('Disconnected');
+
     useEffect(() => {
-        if (!isRunning) return;
+        // Always keep the socket open to receive broadcasts
+        const ws = new WebSocket(WEBSOCKET_URL);
 
-        setLogs([]); // Clear logs on start
-        const timeouts = [];
-        const sequence = generateLogs(params);
+        ws.onopen = () => {
+            setStatus('Connected');
+            setLogs(prev => [...prev, { type: 'sys', text: ">> Connected to Veritas Core System", delay: 0 }]);
+        };
 
-        sequence.forEach((log) => {
-            const t = setTimeout(() => {
-                setLogs(prev => [...prev, log]);
-            }, log.delay);
-            timeouts.push(t);
-        });
+        ws.onmessage = (event) => {
+            try {
+                const data = JSON.parse(event.data);
+                // Only show relevant logs
+                setLogs(prev => [...prev, data]);
+            } catch (err) {
+                console.error("Log parse error", err);
+            }
+        };
 
-        return () => timeouts.forEach(clearTimeout);
-    }, [isRunning, params]);
+        ws.onclose = () => setStatus('Disconnected');
+        ws.onerror = (err) => {
+            setStatus('Error');
+            console.error("WS Error", err);
+        };
+
+        return () => ws.close();
+    }, []);
+
+    // Clear logs only when a NEW run starts, but keep the connection
+    useEffect(() => {
+        if (isRunning) {
+            setLogs([{ type: 'sys', text: ">> Initialization Sequence Started...", delay: 0 }]);
+        }
+    }, [isRunning]);
 
     const getIcon = (type) => {
         switch (type) {
@@ -71,9 +79,15 @@ const LiveAgentFeed = ({ isRunning, params }) => {
 
     return (
         <div className="bg-black/40 border-t border-white/10 p-4 h-64 overflow-hidden flex flex-col font-mono text-xs">
-            <div className="flex items-center gap-2 mb-3 opacity-50 uppercase tracking-widest text-[10px] text-gray-500">
-                <Terminal size={12} />
-                <span>Live Agent Log</span>
+            <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2 opacity-50 uppercase tracking-widest text-[10px] text-gray-500">
+                    <Terminal size={12} />
+                    <span>Live Agent Log</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                    <div className={`w-1.5 h-1.5 rounded-full ${status === 'Connected' ? 'bg-green-500 shadow-[0_0_5px_rgba(34,197,94,0.6)]' : 'bg-red-500'}`}></div>
+                    <span className="text-[9px] uppercase tracking-wider text-gray-600 font-mono">{status}</span>
+                </div>
             </div>
 
             <div ref={scrollRef} className="flex-1 overflow-y-auto space-y-2 scrollbar-hide">

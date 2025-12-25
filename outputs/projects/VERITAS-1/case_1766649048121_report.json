@@ -1,0 +1,45 @@
+{
+    "project_id": "VERITAS-1",
+    "case_id": "case_1766649048121",
+    "city": "Mumbai",
+    "inputs": {
+        "plot_size": 2000,
+        "location": "Island City",
+        "road_width": 20.0,
+        "zoning": "Residential (R-Zone)",
+        "proposed_use": "Residential Building",
+        "building_height": 40.0,
+        "asr_rate": 30000.0,
+        "plot_deductions": 9.0
+    },
+    "entitlements": {
+        "analysis_summary": "### **AI Consultant Report: Planning & Zoning Analysis**\n**Date:** December 25, 2025\n**Subject:** Analysis of Development Potential\n**Case Parameters:**\n*   **Plot Size:** 2000 sq. m.\n*   **Location Type:** Island City\n*   **Abutting Road Width:** 20.0 m.\n*   **Zoning:** Residential (R-Zone)\n*   **Proposed Use:** Residential Building\n*   **Proposed Height:** 40.0\n*   **Gross Plot Area:** 2000 sq. m.\n*   **Deductions:** 9.0 sq. m.\n*   **Net Plot Area:** 1991.0 sq. m.\n*   **ASR Rate:** \u20b930000.0/sq.m.\n---\n#### **1. Analysis Summary & Applicable Rules**\nThe proposed residential development on a 2000 sq. m. plot in an Island City Residential Zone with a 20.0 m abutting road width falls under specific FSI regulations. Based on the Development Control and Promotion Regulation-2034 (DCPR-2034) for the Municipal Corporation of Greater Mumbai, the plot is eligible for a Zonal (Basic) FSI, additional FSI on payment of premium, and admissible TDR. The 20.0 m road width places the plot in the category of \"18.00m & above but less than 27m\" for FSI calculations. This allows for a total permissible FSI of 2.7, which includes a basic FSI of 1.33, an additional premium FSI of 0.73, and an admissible TDR of 0.64. Premium for additional FSI is generally calculated at a percentage of the Annual Statement of Rates (ASR).\n\n**Citations:**\n*   Page 83, TABLE 12: Floor Space Indices in Residential, Commercial and Industrial Zones (specifically for Island City, Residential/Commercial Zone, 18.00m & above but less than 27m road width).\n*   Page 177: Conditions for additional FSI, including premium calculation (general principle, though found within IT/ITES context, the prompt's provided premium rate aligns with a general application).\n\n#### **2. Entitlements & Calculations**\nUsing the Net Plot Area of 1991.0 sq. m. and the rules from TABLE 12 (Page 83) for Island City, Residential/Commercial Zone, with a road width of 18.00m & above but less than 27m:\n\n| FSI Component                 | FSI Value | Permissible Built-Up Area (BUA) (sq. m.) |\n| :---------------------------- | :-------- | :--------------------------------------- |\n| **Zonal (Basic) FSI**         | 1.33      | 2648.03                                  |\n| **Additional FSI (Premium)**  | 0.73      | 1453.43                                  |\n| **Admissible TDR**            | 0.64      | 1274.24                                  |\n| **Total Permissible FSI**     | **2.70**  | **5375.70**                              |\n| **Permissible Height**        | N/A       | (No specific maximum height found in context for R-Zone) |\n\n**Financial Estimation (System Calculated):**\n*   **Inferred Premium FSI:** 0.3 (Standard Assumption as per prompt)\n*   **Premium FSI Area:** 597.30 sq.m (Calculated as 0.3 * 1991.0 sq.m)\n*   **Estimated Cost:** \u20b98,959,500.00 (Estimated at 50% of ASR per sq.m for the inferred premium FSI area: 597.30 sq.m * (\u20b930000.0/sq.m * 0.50))\n\n#### **3. Key Missing Information**\nWhile a comprehensive analysis of FSI is possible, the following critical information is not explicitly detailed in the provided context:\n*   **Specific Maximum Permissible Height:** There are no explicit height restrictions mentioned for residential buildings in the Island City R-Zone for the given road width. The proposed height of 40.0 m needs to be checked against specific height regulations, if any, that may be tied to zone, road width, or fire safety norms.\n*   **Detailed Development Control Regulations:** Information regarding setbacks, open space requirements, parking mandates (beyond FSI exemptions for parking), amenity space provisions, and other site-specific planning controls are crucial for a complete design and approval process.\n*   **Exact Premium FSI Calculation Methodology for Residential Zones:** While a general premium calculation for additional FSI is mentioned (e.g., 50% of ASR for open develop land), the specific conditions and exact percentage for residential additional FSI (0.73) as per Table 12 are not fully elaborated.\n\n#### **4. Strategic Recommendation (AI Policy)**\n**Recommended Strategy:** LOW DENSITY Residential (Basic FSI ~1.0)\n\nDespite the abutting road width of 20.0 m typically supporting higher density developments (with a total permissible FSI of 2.7), the recommendation for a LOW DENSITY Residential strategy (utilizing approximately 1.0 FSI) is a strategic choice influenced by several factors. While the 20.0 m road width technically enables higher FSI and potentially a taller structure, opting for a lower density can offer significant advantages. This approach typically leads to reduced upfront premium payments for additional FSI and TDR, simplifies the regulatory compliance process, and can accelerate project timelines. Furthermore, in an \"Island City\" location, a low-density development can cater to a niche market segment that values spacious living, exclusivity, and more open green areas, potentially commanding higher per-unit sale prices and fostering a premium brand image. This strategy balances development potential with market positioning and operational efficiency, even if it doesn't maximize the absolute permissible FSI.\n\n#### **5. Next Steps**\n1.  **Verify Height Restrictions:** Obtain the specific maximum permissible building height for residential developments in Island City, R-Zone, considering the 20.0 m road width.\n2.  **Detailed Development Control Regulations Review:** Consult the full DCPR-2034 document for detailed regulations on setbacks, open spaces, parking requirements, and other specific building controls relevant to the plot.\n3.  **Market Feasibility Study:** Conduct a detailed market analysis to assess demand for low-density luxury residential units versus higher-density offerings in the specific Island City location.\n4.  **Premium Calculation Confirmation:** Seek clarification from the Municipal Corporation on the precise methodology and applicable rates for calculating premium for additional FSI in residential zones, beyond the general principles mentioned.\n5.  **Preliminary Design & Costing:** Develop preliminary architectural designs based on the basic FSI and estimated height, alongside a detailed cost analysis, to validate the financial viability of the recommended low-density strategy.\n---\n**Disclaimer:** This report is an automated analysis based on the provided text excerpts and user parameters. It serves as a preliminary assessment and does not constitute legal or professional planning advice. All information should be verified with the relevant municipal authorities and a qualified planning professional before making any development decisions. The financial estimations are indicative and subject to change based on actual market conditions and official valuations.",
+        "rules_from_db": [],
+        "carpet_area_sqm": 5280.0
+    },
+    "comparative_analysis": {
+        "baseline": {
+            "fsi": 1.1,
+            "bua": 2190.1,
+            "estimated_profit": 54752500.0
+        },
+        "optimized": {
+            "fsi": 3.0,
+            "bua": 5973.0,
+            "estimated_profit": 92581500.0
+        },
+        "value_add": 37829000.0,
+        "roi_increase_percent": 69.1
+    },
+    "rl_decision": {
+        "optimal_action": 1,
+        "confidence_score": 0.9
+    },
+    "geometry_file": "/outputs/projects/VERITAS-1/case_1766649048121_geometry.stl",
+    "calculated_geometry": {
+        "width": 17.572618379272477,
+        "depth": 25.49278601124135,
+        "height": 40.0
+    },
+    "logs": "/logs/case_1766649048121"
+}

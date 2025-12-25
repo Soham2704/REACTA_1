@@ -8,7 +8,7 @@ if exist .venv (
     echo Existing venv found.
 ) else (
     echo Creating new venv...
-    python -m venv .venv
+    py -m venv .venv
 )
 
 echo [2/4] Installing Backend Dependencies into .venv...
